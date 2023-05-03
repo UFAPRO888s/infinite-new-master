@@ -2,8 +2,8 @@ import React from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CustomEase } from "gsap/CustomEase";
-import Slider from "../../components/Slider/Slider";
 
+import SlideWork from "../SlideWork";
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
 export default function SubWebDesign() {
@@ -193,6 +193,7 @@ export default function SubWebDesign() {
                           <img
                             src="../assets/images/home/icon-web-design1.png"
                             className="object-cover w-20 h-20"
+                            alt="design1"
                           />
                         </div>
                         <div>
@@ -207,6 +208,7 @@ export default function SubWebDesign() {
                           <img
                             src="../assets/images/home/icon-web-design2.png"
                             className="object-cover w-20 h-20"
+                            alt="design2"
                           />
                         </div>
                         <div>
@@ -223,6 +225,7 @@ export default function SubWebDesign() {
                           <img
                             src="../assets/images/home/icon-web-design3.png"
                             className="object-cover w-20 h-20"
+                            alt="design3"
                           />
                         </div>
                         <div>
@@ -289,7 +292,7 @@ export default function SubWebDesign() {
               <div className="grid grid-cols-12 relative">
                 <div className="col-span-12">
                   <div>
-                    <Slider />
+                    <SlideWork />
                   </div>
                 </div>
               </div>

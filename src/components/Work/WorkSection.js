@@ -2,11 +2,9 @@ import React from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CustomEase } from "gsap/CustomEase";
-
-import Slider from "../../components/Slider/Slider";
+import SlideWork from "../SlideWork";
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
-
 
 export default function WorkSection() {
   return (
@@ -75,9 +73,7 @@ export default function WorkSection() {
                       </div>
                     </div>
                     <div className="col-span-12">
-                      <div>
-                        <Slider />
-                      </div>
+                      <SlideWork />
                     </div>
                   </div>
                 </div>
@@ -212,7 +208,9 @@ export default function WorkSection() {
                     />
                   </div>
                   <p className="text-2xl font-semibold mx-10 my-2 text-center">
-                    วัฒนธรรมที่อินฟินิตี้ ถูกสร้างขึ้นมาจากกลุ่มคนที่มีความทะเยอทะยานและหลงใหล ในสื่อดิจิทัล.
+                    วัฒนธรรมที่อินฟินิตี้
+                    ถูกสร้างขึ้นมาจากกลุ่มคนที่มีความทะเยอทะยานและหลงใหล
+                    ในสื่อดิจิทัล.
                   </p>
                   <div className="grid justify-items-end">
                     <img
