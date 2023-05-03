@@ -465,18 +465,22 @@ export default function HeroSectionCopy() {
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-kinjai.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-kinjai"
                                 />
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-hrr.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-hrr"
                                 />
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-ktthome.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-ktthome"
                                 />
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-TS.jumnumrod.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-jumnumrod"
                                 />
                               </div>
                             </div>
@@ -485,18 +489,22 @@ export default function HeroSectionCopy() {
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-Entry.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-Entry"
                                 />
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-n2property.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-n2property"
                                 />
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-yusei.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-yusei"
                                 />
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-เว็บพระ.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-เว็บพระ"
                                 />
                               </div>
                             </div>
@@ -505,18 +513,22 @@ export default function HeroSectionCopy() {
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-hotelink.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-hotelink"
                                 />
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-unisyntech.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-unisyntech"
                                 />
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-new yellow.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-yellow"
                                 />
                                 <img
                                   src="../../assets/images/logo-customers/LOGO-amando.png"
                                   className="object-cover w-100 h-12 mb-2"
+                                  alt="customers-amando"
                                 />
                               </div>
                             </div>
