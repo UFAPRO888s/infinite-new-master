@@ -2,9 +2,9 @@ import React from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CustomEase } from "gsap/CustomEase";
-import SliderServicePrinting from "./SliderServicePrinting/SliderServicePrinting";
-import SliderServiceOnline from "./SliderServiceOnline/SliderService";
 
+import SlideSocialMedia2 from "../SlideSocialMedia2";
+import SlideSocialMedia from "../SlideSocialMedia";
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
 export default function SubSocialMedia() {
@@ -232,7 +232,7 @@ export default function SubSocialMedia() {
               </div>
               <div className="grid grid-cols-12 relative">
                 <div className="col-span-6 ml-32 text-left font-bold">
-                  <SliderServiceOnline />
+                  <SlideSocialMedia2 />
                   <div className="grid justify-items-start w-full m-5">
                     <h2 className="text-2xl 3xl:text-3xl">Creative</h2>
                     <p className="text-xl 3xl:text-2xl font-light text-infinite2-2">
@@ -241,7 +241,7 @@ export default function SubSocialMedia() {
                   </div>
                 </div>
                 <div className="col-span-6 ml-32 text-left font-bold">
-                  <SliderServicePrinting />
+                  <SlideSocialMedia />
                   <div className="grid justify-items-start w-full m-5">
                     <h2 className="text-2xl 3xl:text-3xl">Creative</h2>
                     <p className="text-xl 3xl:text-2xl font-light text-infinite2-2">
