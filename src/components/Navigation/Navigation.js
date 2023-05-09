@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link ,Route} from "react-router-dom";
 import Footer from "../Footer";
 import WidgetWrapper from "../WidgetWrapper/WidgetWrapper";
 import { Disclosure } from "@headlessui/react";
@@ -69,6 +69,8 @@ const navService = [
 ];
 
 export default function Navigation() {
+  let isHomePage = window.location.pathname == '/'
+  console.log(isHomePage)
   const reLogoRefs = useRef([]);
   reLogoRefs.current = [];
   useEffect(() => {
@@ -342,7 +344,7 @@ export default function Navigation() {
             </div>
           </div>
           <div className="w-full col-span-12">
-            <SlideHome />
+            {isHomePage && <SlideHome />}
           </div>
           <div className="col-start-1 col-span-12 md:col-start-2 md:col-span-10 z-15">
             <Outlet />

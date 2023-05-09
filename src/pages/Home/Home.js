@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 // import { Helmet } from "react-helmet";
 import HeroSection from "../../components/Home/HeroSection";
 import ContentSection from "../../components/Home/ContentSection";
@@ -10,6 +10,8 @@ import { SuperSEO } from "react-super-seo";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
+  let [isHomePage, setisHomePage] = useState(true)
+
   return (
     <>
       {/* <Helmet>
