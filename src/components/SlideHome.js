@@ -1,43 +1,43 @@
-import React from 'react'
-import { Autoplay, Pagination, Navigation } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import React from "react";
+import { Autoplay, Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import 'swiper/css/autoplay'
-import 'swiper/css'
-import 'swiper/css/navigation'
+import "swiper/css/autoplay";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const ImagesHomeSlide = [
   {
     id: 0,
-    path: '../assets/images/home/sliderhome/1-2.webp',
-    text: 'sliderhome1',
+    path: "../assets/images/home/sliderhome/1-2.webp",
+    text: "sliderhome1",
   },
   {
     id: 1,
-    path: '../assets/images/home/sliderhome/2-2.webp',
-    text: 'sliderhome2',
+    path: "../assets/images/home/sliderhome/2-2.webp",
+    text: "sliderhome2",
   },
   {
     id: 2,
-    path: '../assets/images/home/sliderhome/3-2.webp',
-    text: 'sliderhome3',
+    path: "../assets/images/home/sliderhome/3-2.webp",
+    text: "sliderhome3",
   },
   {
     id: 3,
-    path: '../assets/images/home/sliderhome/4-2.webp',
-    text: 'sliderhome4',
+    path: "../assets/images/home/sliderhome/4-2.webp",
+    text: "sliderhome4",
   },
   {
     id: 4,
-    path: '../assets/images/home/sliderhome/5-2.webp',
-    text: 'sliderhome5',
+    path: "../assets/images/home/sliderhome/5-2.webp",
+    text: "sliderhome5",
   },
   {
     id: 5,
-    path: '../assets/images/home/sliderhome/6-2.webp',
-    text: 'sliderhome6',
+    path: "../assets/images/home/sliderhome/6-2.webp",
+    text: "sliderhome6",
   },
-]
+];
 
 export default function SlideHome() {
   return (
@@ -59,10 +59,12 @@ export default function SlideHome() {
       >
         {ImagesHomeSlide.map((ImagesHome) => (
           <SwiperSlide key={ImagesHome.id}>
-            <div className="h-full w-auto object-cover">
+            <div className="w-full h-auto object-cover">
               <img
                 src={ImagesHome.path}
                 alt={ImagesHome.text}
+                width={2000}
+                height={1000}
                 className="w-full h-auto"
               />
             </div>
@@ -70,5 +72,5 @@ export default function SlideHome() {
         ))}
       </Swiper>
     </>
-  )
+  );
 }

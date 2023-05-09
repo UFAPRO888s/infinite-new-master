@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CustomEase } from "gsap/CustomEase";
+import SlideHome from "../SlideHome";
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
@@ -157,9 +158,7 @@ export default function HeroSectionCopy() {
           <div className="container mx-auto mt-0 md:mt-0 z-10">
             <div className="columns-1">
               <div className="grid grid-cols-12 my-0 justify-items-center">
-                <div className="col-span-12">
-                  
-                </div>
+                <div className="col-span-12"></div>
               </div>
             </div>
           </div>
@@ -301,9 +300,7 @@ export default function HeroSectionCopy() {
           <div className="container mx-auto mt-0 md:mt-0 z-10">
             <div className="columns-1">
               <div className="grid grid-cols-12 my-0 justify-items-center">
-                <div className="col-span-12">
-                  
-                </div>
+                <div className="col-span-12"></div>
               </div>
             </div>
           </div>

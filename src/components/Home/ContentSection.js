@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CustomEase } from "gsap/CustomEase";
+
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
 export default function ContentSectionCopy() {
@@ -128,6 +129,7 @@ export default function ContentSectionCopy() {
       <div className="hidden md:block">
         <div className="container mx-auto mt-0 md:mt-0 z-60" ref={addToRefs}>
           <div className="columns-1">
+          
             <div className="grid grid-cols-12 my-10 2xl:my-20 3xl:my-10 justify-items-center">
               <div className="col-span-12">
                 <blockquote className="mx-5 lg:mx-10 text-center">
