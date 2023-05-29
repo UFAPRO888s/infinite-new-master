@@ -260,7 +260,7 @@ export default function Navigation() {
             <div className="max-w-full mx-auto overflow-hidden">
               <div className="hidden md:block">
                 <div className="grid grid-cols-12">
-                  <header className="col-start-1 col-span-11">
+                  <header className="col-start-1 col-span-12">
                     <div className="max-w-full mx-auto overflow-hidden">
                       <nav className="flex justify-between items-center md:h-16 lg:h-28 mx-3">
                         <div className="grid justify-items-start">

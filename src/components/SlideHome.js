@@ -9,32 +9,32 @@ import "swiper/css/navigation";
 const ImagesHomeSlide = [
   {
     id: 0,
-    path: "../assets/images/home/sliderhome/1-2.webp",
+    path: "../assets/images/home/sliderhome/1-2.jpg",
     text: "sliderhome1",
   },
   {
     id: 1,
-    path: "../assets/images/home/sliderhome/2-2.webp",
+    path: "../assets/images/home/sliderhome/2-2.jpg",
     text: "sliderhome2",
   },
   {
     id: 2,
-    path: "../assets/images/home/sliderhome/3-2.webp",
+    path: "../assets/images/home/sliderhome/3-2.jpg",
     text: "sliderhome3",
   },
   {
     id: 3,
-    path: "../assets/images/home/sliderhome/4-2.webp",
+    path: "../assets/images/home/sliderhome/4-2.jpg",
     text: "sliderhome4",
   },
   {
     id: 4,
-    path: "../assets/images/home/sliderhome/5-2.webp",
+    path: "../assets/images/home/sliderhome/5-2.jpg",
     text: "sliderhome5",
   },
   {
     id: 5,
-    path: "../assets/images/home/sliderhome/6-2.webp",
+    path: "../assets/images/home/sliderhome/6-2.jpg",
     text: "sliderhome6",
   },
 ];

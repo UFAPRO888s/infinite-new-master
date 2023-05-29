@@ -14,9 +14,9 @@ export default function SubSeo() {
             <div className="columns-1 mb-10">
               <div className="grid justify-items-center">
                 <img
-                  className="object-cover object-center w-auto h-[650px] 2xl:h-[650px] 3xl:h-[750px]"
-                  src="../../assets/images/service/Seo/pic-illustration-head-1.png"
-                  alt="pic-illustration-head-1"
+                  className="object-cover object-center w-full h-auto"
+                  src="../../assets/images/service/Seo/Seo-Digital-Marketing.jpg"
+                  alt="/Seo-Digital-Marketing"
                 />
               </div>
             </div>
@@ -25,11 +25,8 @@ export default function SubSeo() {
         <div className="container mx-auto mt-0">
           <div className="relative">
             <div>
-              <div className="max-w-full mx-auto -py-4 px-4 lg:flex lg:items-center lg:justify-end -mt-10">
+              <div className="max-w-full mx-auto  lg:flex lg:items-center lg:justify-end">
                 <p className="inline-block h-screen w-full bg-white"></p>
-              </div>
-              <div className="max-w-full mx-auto -py-4 px-4 lg:flex lg:items-center lg:justify-end -mt-10">
-                <p className="inline-block h-48 w-full bg-white"></p>
               </div>
             </div>
             <div className="absolute top-10 right-0 w-full text-right">

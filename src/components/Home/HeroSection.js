@@ -155,10 +155,62 @@ export default function HeroSectionCopy() {
     <>
       <div className="container mx-auto">
         <div className="hidden md:block">
-          <div className="container mx-auto mt-0 md:mt-0 z-10">
-            <div className="columns-1">
-              <div className="grid grid-cols-12 my-0 justify-items-center">
-                <div className="col-span-12"></div>
+          <div className="container mx-auto mt-0 md:mt-0 z-20" ref={addToRefs}>
+            <div className="relative">
+              <div ref={addblockToRefs}>
+                <div className="max-w-full mx-auto px-0 lg:px-0 flex items-center justify-start mt-0">
+                  <p className="inline-block h-[16rem] lg:h-80 xl:h-[26rem] 2xl:h-128 3xl:h-150 w-6 lg:w-10 3xl:w-20 bg-in-purple-3"></p>
+                  <p className="inline-block h-[16rem] lg:h-80 xl:h-[26rem] 2xl:h-128 3xl:h-150 w-full bg-white"></p>
+                </div>
+              </div>
+              <div className="absolute inset-0">
+                <div className="block w-12/12" ref={boxRef}>
+                  <div className="grid grid-cols-6 justify-items-center w-full">
+                    <div className="col-start-2 col-span-4 ">
+                      <img
+                        className="h-auto w-144 2xl:w-144 3xl:w-[45rem] object-cover"
+                        src="../assets/images/home/we-are-new.png"
+                        alt="we-are"
+                      />
+                    </div>
+                    <div className="col-start-2 col-span-4 self-center  mr-10 mt-1 xl:mr-10 xl:mt-2 2xl:mr-5 2xl:mt-10">
+                      <p className="font-bold uppercase md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl 3xl:text-7xl text-center">
+                        Infinite Digital Consultants
+                      </p>
+                      <p className="text-center uppercase font-extralight md:text-sm lg:text-xl xl:text-2xl 3xl:text-3xl mt-0 lg:mt-2 xl:mt-2 2xl:mt-3 3xl:mt-2 ">
+                        รับปรึกษาดูแลด้านเว็บไซต์
+                        <br />
+                        และระบบโปรแกรม รวมถึงสื่อดิจิทัลออนไลน์
+                        <br />
+                        ครบทุกด้านในที่เดียว
+                      </p>
+                      <p className="text-center font-bold md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl 3xl:text-5xl py-2">
+                        “จ้างครั้งเดียวจบ ได้ครบทั้งทีม”
+                      </p>
+                      <div className="grid justify-items-center">
+                        <a href="/contact">
+                          <button className="in-button">
+                            <img
+                              className="object-scale-down w-24 lg:w-32 xl:w-40 2xl:w-48"
+                              src="../assets/images/home/ปุ่ม-contact-us.png"
+                              alt="ปุ่ม-contact-us"
+                            />
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="container mx-auto">
+            <div className="relative">
+              <div ref={addblockToRefs}>
+                <div className="max-w-full mx-auto px-0 lg:px-0 flex items-center justify-start mt-0">
+                  <p className="inline-block md:h-14 lg:h-16 2xl:h-20 md:w-full lg:w-full 2xl:w-full bg-infinite1-100"></p>
+                  <p className="inline-block md:h-14 lg:h-16 2xl:h-20 md:w-56 lg:w-56 2xl:w-1/5 bg-in-purple-3"></p>
+                </div>
               </div>
             </div>
           </div>
@@ -166,131 +218,54 @@ export default function HeroSectionCopy() {
             <div className="relative">
               <div ref={addblockToRefs}>
                 <div className="max-w-full mx-auto px-0 lg:px-0 flex items-center justify-start mt-0">
-                  <p className="inline-block h-[16rem] lg:h-80 xl:h-[26rem] 2xl:h-128 3xl:h-144 w-6 lg:w-10 3xl:w-20 bg-in-purple-3"></p>
-                  <p className="inline-block h-[16rem] lg:h-80 xl:h-[26rem] 2xl:h-128 3xl:h-144 w-72 lg:w-[22rem] xl:w-[29rem] 2xl:w-[33rem] 3xl:w-[38rem] bg-infinite2-4"></p>
+                  <p className="inline-block h-[16rem] lg:h-80 xl:h-[26rem] 2xl:h-128 3xl:h-[56rem] w-full bg-white"></p>
                 </div>
               </div>
-              <div className="absolute top-0 md:top-0 2xl:top-5 left-0 lg:left-5 xl:left-0">
-                <div className="inline-block w-12/12" ref={boxRef}>
-                  <div className="flex flex-col items-stretch justify-start">
-                    <div className="grid grid-cols-6 w-full">
-                      <div className="row-span-4 col-span-3">
-                        <img
-                          className="h-auto w-144 2xl:w-144 3xl:w-[45rem] object-cover"
-                          src="../assets/images/home/we-are.png"
-                          alt="we-are"
-                        />
-                      </div>
-                      <div className="col-span-3 ml-5 3xl:ml-2 mt-3 lg:mt-5 xl:mt-6 2xl:mt-5 self-center">
-                        <p className="font-bold uppercase md:text-4xl lg:text-4xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl text-left">
-                          Infinite Digital
-                          <br />
-                          Consultants
+              <div className="absolute inset-0">
+                <div className="block w-12/12" ref={boxRef}>
+                  <div className="grid grid-cols-11 justify-items-center h-[16rem] lg:h-80 xl:h-[26rem] 2xl:h-128 3xl:h-[56rem] w-full">
+                    <div className="col-start-1 col-span-6">
+                      <img
+                        className="h-[16rem] lg:h-80 xl:h-[26rem] 2xl:h-128 3xl:h-[56rem] w-auto object-cover"
+                        src="../assets/images/home/01.jpg"
+                        alt="we-are"
+                      />
+                    </div>
+                    <div className="col-start-7 col-span-11 self-start p-10 lg:p-10 xl:p-24 2xl:p-14 3xl:p-32 3xl:py-20">
+                      <blockquote className="pb-10">
+                        <p className="md:text-xs lg:text-sm xl:text-base 2xl:text-xl 3xl:text-3xl font-light text-left 2xl:leading-10 3xl:leading-[3rem]">
+                          เราเป็นทีมออกแบบเว็บไซต์ที่ไม่เหมือนใคร
+                          ซึ่งเหมาะกับเอกลักษณ์เฉพาะตัวของแบรนด์ของคุณอย่างแท้จริง
+                          เพื่อสร้างประสบการณ์ที่โดเด่น
                         </p>
-                        <p className="text-left uppercase font-extralight md:text-sm lg:text-xl xl:text-2xl 3xl:text-4xl mt-0 lg:mt-2 xl:mt-2 2xl:mt-3 3xl:mt-2">
-                          อินฟินิท ดิจิทัล คอนซัลแต้นส์ รับปรึกษา <br />
-                          ดูแลด้านเว็บไซต์และระบบโปรแกรม รวมถึง
-                          <br />
-                          สื่อดิจิทัลออนไลน์ ครบทุกด้านในที่เดียว
+                      </blockquote>
+                      <blockquote className="pb-10">
+                        <h1 className=" text-center text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl font-bold 2xl:leading-10 3xl:leading-normal">
+                          " We,ra a small team of creatives committed to design
+                          with a purpose "
+                        </h1>
+                      </blockquote>
+                      <blockquote className="px-16">
+                        <p className="md:text-xs lg:text-sm xl:text-base 2xl:text-xl 3xl:text-2xl font-light 2xl:leading-10 3xl:leading-normal text-justify">
+                          เพิ่มมูลค่าให้แก่แบรนด์ของคุณให้เป็นที่น่าจดจำและสร้างโอกาสในการขายมากขึ้นด้วยเว็บไซต์ที่ทำหน้าที่และตอบสนองได้อย่างสมบูรณ์
+                          ซึ่งออกแบบมาสำหรับผู้ใช้ของคุณ
                         </p>
-                      </div>
-                      <div className="col-span-3 mr-10 mt-1 xl:mr-10 xl:mt-2 2xl:mr-5 2xl:mt-10">
-                        <p className="text-right font-bold md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl 3xl:text-5xl py-2">
-                          “จ้างครั้งเดียวจบ ได้ครบทั้งทีม”
-                        </p>
-                        <div className="grid justify-items-end">
-                          <a href="/contact">
-                            <button className="in-button">
-                              <img
-                                className="object-scale-down w-24 lg:w-32 xl:w-40 2xl:w-48"
-                                src="../assets/images/home/ปุ่ม-contact-us.png"
-                                alt="ปุ่ม-contact-us"
-                              />
-                            </button>
-                          </a>
-                        </div>
-                      </div>
+                      </blockquote>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="container mx-auto mt-0 md:mt-0 z-20" ref={addToRefs}>
-            <div className="max-w-full mx-auto px-0 lg:px-4 flex items-center justify-between bg-infinite1-200">
-              <div className="relative ">
-                <p className="inline-block h-96 lg:h-128 xl:h-[40rem] 2xl:h-[45rem] 3xl:h-[54rem] w-screen"></p>
-                <div className="box-decoration-clone bg-gradient-to-r from-infinite1-100 to-infinite1-200">
-                  <div className="absolute top-0 left-0 z-10">
-                    <div className="inline-block w-12/12">
-                      <div className="relative animationWater0">
-                        <img
-                          className="object-cover object-left-top md:h-96 lg:h-128 xl:h-[40rem] 2xl:h-[45rem] 3xl:h-[54rem] w-auto"
-                          src="../assets/images/home/section1/ภาพประกอบ1.png"
-                          alt="ภาพประกอบ1"
-                        />
-                        <div className="absolute top-0 -right-5 xl:-right-20 w-6/6 mx-5 2xl:mx-0 z-10">
-                          <div className="grid grid-cols-12">
-                            <div className="col-start-7 col-end-12">
-                              <blockquote className="pt-10 lg:pt-10 xl:pt-24 2xl:pt-14 3xl:pt-28 px-[1rem] xl:pl-[0rem] xl:pr-[6rem] 2xl:px-[2rem] 3xl:px-[4rem]">
-                                <h1 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl font-bold 2xl:leading-10 3xl:leading-normal">
-                                  รับทำเว็บไชต์ wordpress และ รับทำ seo
-                                  ออกแบบเว็บไชต์ให้รองรับระบบของ Google
-                                </h1>
-                              </blockquote>
-                            </div>
-                            <div className="col-start-7 col-end-12">
-                              <blockquote className="pl-[4.8rem] xl:pl-[4.8rem] 2xl:pl-[7rem] 3xl:pl-[8rem] pr-[2rem] xl:pr-[6rem] 2xl:pr-[0rem] 3xl:pr-[2rem] pt-10 xl:pt-3 2xl:pt-5 3xl:pt-10">
-                                <p className="indent-8 md:text-xs lg:text-sm xl:text-base 2xl:text-xl 3xl:text-2xl font-light text-left 2xl:leading-10 3xl:leading-normal">
-                                  อินฟินิท ดิจิทัล คอนซัลแต้นส์ รับทำเว็บไชต์
-                                  รับทำ wordpress
-                                  รับปรึกษาดูแลด้านเว็บไซต์ให้รองรับด้าน SEO ของ
-                                  google และ รับเขียนโปรแกรม ทุกประเภทธุรกิจ
-                                  รวมถึงสื่อดิจิทัลออนไลน์
-                                </p>
-                              </blockquote>
-                            </div>
-                            <div className="col-start-7 col-end-12">
-                              <blockquote className="pl-[4.8rem] xl:pl-[4.8rem] 2xl:pl-[7rem] 3xl:pl-[8rem] pr-[2rem] xl:pr-[6rem] 2xl:pr-[0rem] 3xl:pr-[2rem] pt-10 xl:pt-3 2xl:pt-2 3xl:pt-5">
-                                <p className="indent-8 md:text-xs lg:text-sm xl:text-base 2xl:text-xl 3xl:text-2xl font-light text-left 2xl:leading-10 3xl:leading-normal">
-                                  เราเป็นทีมออกแบบเว็บไซต์ที่สร้างสรรค์ผลงานคุณภาพ
-                                  ไม่เหมือนใคร
-                                  และตอบโจทย์ตามความต้องการของลูกค้า
-                                  เพื่อสร้างเอกลักษณ์เฉพาะตัวของแบรนด์
-                                  รวมถึงการสร้างประสบการณ์ที่ดีต่อผู้ใช้งานเว็บไซต์
-                                  และรับทำ seo
-                                  เพื่อรองรับเว็บไชต์ของคุณให้ติดหน้า 1 ของ
-                                  Google ทุก Platform
-                                </p>
-                              </blockquote>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="absolute md:bottom-0 lg:bottom-0 xl:bottom-0 2xl:bottom-0 3xl:bottom-10 right-10 3xl:right-10 w-1/5 z-0">
-                          <div className="inline-block ml-10 2xl:ml-5 3xl:ml-11 left-0 m-30 h-full">
-                            <img
-                              className="fixed top-20 right-20 xl:right-16 2xl:right-24 3xl:right-[5rem] pointer-events-none animationWater1 md:h-[17rem] lg:h-[22rem] xl:h-[26rem] 2xl:h-[35rem] 3xl:h-[41rem]"
-                              src="../assets/images/home/น้ำ1.png"
-                              alt="น้ำ1"
-                            />
-                          </div>
-                        </div>
-                        <div className="absolute md:bottom-7 lg:bottom-10 xl:bottom-8 2xl:bottom-6 3xl:bottom-10 right-5 lg:right-10 xl:right-20 w-1/5 z-20">
-                          <div className="inline-block left-0 mr-0 lg:mr-10 xl:mr-0">
-                            <a href="/about">
-                              <button className="in-button">
-                                <img
-                                  className="object-scale-down w-24 lg:w-32 xl:w-48 2xl:w-60 3xl:w-72"
-                                  src="../assets/images/home/section1/ปุ่ม1.png"
-                                  alt="ปุ่ม1"
-                                />
-                              </button>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div className="absolute md:bottom-7 lg:bottom-10 xl:bottom-8 2xl:bottom-6 3xl:bottom-10 right-5 lg:right-10 xl:right-20 w-1/5 z-20">
+                <div className="inline-block left-0 mr-0 lg:mr-10 xl:mr-0">
+                  <a href="/about">
+                    <button className="in-button">
+                      <img
+                        className="object-scale-down w-24 lg:w-32 xl:w-48 2xl:w-60 3xl:w-72"
+                        src="../assets/images/home/section1/ปุ่ม1.png"
+                        alt="ปุ่ม1"
+                      />
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -323,7 +298,7 @@ export default function HeroSectionCopy() {
                             Consultants
                           </p>
                           <p className="text-sm my-2">
-                            อินฟินิท ดิจิทัล คอนซัลแต้นส์
+                            อินฟินิท ดิจิทัล คอนซัลแตนท์
                             คือเอเจนซี่มืออาชีพที่รับทำการตลาดออนไลน์ทุกรูปแบบอย่างครบวงจร
                           </p>
                           <p className="font-bold text-xl my-2">
@@ -391,7 +366,7 @@ export default function HeroSectionCopy() {
                         ออกแบบเว็บไชต์ให้รองรับระบบของ Google
                       </h1>
                       <p className="text-base mb-5">
-                        อินฟินิท ดิจิทัล คอนซัลแต้นส์ รับทำเว็บไชต์ รับทำ
+                        อินฟินิท ดิจิทัล คอนซัลแตนท์ รับทำเว็บไชต์ รับทำ
                         wordpress รับปรึกษาดูแลด้านเว็บไซต์ให้รองรับด้าน SEO ของ
                         google และ รับเขียนโปรแกรม ทุกประเภทธุรกิจ
                         รวมถึงสื่อดิจิทัลออนไลน์

@@ -89,7 +89,7 @@ export default function Footer() {
                       <p>
                         เลขประจำตัวผู้เสียภาษี :{" "}
                         <span className="font-Prompt">0105565077124</span>{" "}
-                        บริษัท อินฟินิท ดิจิทัล คอนซัลแต้นส์ จำกัด
+                        บริษัท อินฟินิท ดิจิทัล คอนซัลแตนท์ จำกัด
                       </p>
                     </div>
                   </div>
@@ -155,17 +155,16 @@ export default function Footer() {
                 <div className="basis-1/2 p-2">
                   <blockquote className="md:text-xs lg:text-base 2xl:text-xl 3xl:text-2xl">
                     <ul className="list-none leading-relaxed text-left">
+                      <li>Address : อาคารมาริโกลด์ ทาวเวอร์ สุวรรณภูมิ</li>
                       <li>
-                        Address : <span className="font-Prompt">33/52</span>{" "}
-                        วิลล่า อัลแบโร่
+                        ชั้นที่ <span className="font-Prompt">5</span>{" "}
+                        ห้องเลขที่ <span className="font-Prompt">1507 </span>
+                        ซอยลาดกระบัง <span className="font-Prompt">1</span>
                       </li>
+                      <li>ถนนอ่อนนุช-ลาดกระบัง แขวงลาดกระบัง</li>
                       <li>
-                        พระราม <span className="font-Prompt">9</span> ถนน
-                        กรุงเทพกรีฑา
-                      </li>
-                      <li>แขวงสะพานสูง เขตสะพานสูง</li>
-                      <li>
-                        กรุงเทพมหานคร <span className="font-Prompt">11240</span>
+                        เขตลาดกระบัง กรุงเทพมหานคร{" "}
+                        <span className="font-Prompt">10520</span>{" "}
                       </li>
                     </ul>
                   </blockquote>
@@ -211,7 +210,7 @@ export default function Footer() {
                 เลขประจำตัวผู้เสียภาษี :{" "}
                 <span className="font-Prompt">0105565077124</span>
                 <br />
-                บริษัท อินฟินิท ดิจิทัล คอนซัลแต้นส์ จำกัด
+                บริษัท อินฟินิท ดิจิทัล คอนซัลแตนท์ จำกัด
               </p>
             </div>
           </div>
@@ -268,21 +267,19 @@ export default function Footer() {
                 </ul>
               </blockquote>
             </div>
-            <div className="pl-8">
+            <div className="pl-6">
               <blockquote className="text-[0.60rem] font-extralight">
                 <ul className="list-none leading-relaxed text-left">
                   <li>
-                    Address : <span className="font-Prompt">33/52</span> วิลล่า
-                    อัลแบโร่
+                    Address : อาคารมาริโกลด์ ทาวเวอร์ สุวรรณภูมิ ชั้นที่{" "}
+                    <span className="font-Prompt">5</span> ห้องเลขที่{" "}
+                    <span className="font-Prompt"> 1507</span>
                   </li>
                   <li>
-                    พระราม <span className="font-Prompt">9</span>{" "}
-                    ถนนกรุงเทพกรีฑา
+                    ซอยลาดกระบัง <span className="font-Prompt">1 </span>
+                    ถนนอ่อนนุช-ลาดกระบัง แขวงลาดกระบัง
                   </li>
-                  <li>
-                    แขวงสะพานสูง เขตสะพานสูง กรุงเทพมหานคร{" "}
-                    <span className="font-Prompt">11240</span>
-                  </li>
+                  <li> เขตลาดกระบัง กรุงเทพมหานคร <span className="font-Prompt"> 10520</span></li>
                 </ul>
               </blockquote>
             </div>
@@ -294,7 +291,7 @@ export default function Footer() {
             >
               <div className="row-span-6 mx-10 my-4">
                 <div className="grid grid-rows-1 grid-flow-col justify-between">
-                  {navigationMo.map((item,insfo) => (
+                  {navigationMo.map((item, insfo) => (
                     <a key={insfo} href={item.href}>
                       <img
                         className="object-cover w-16 h-16 "

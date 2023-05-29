@@ -15,9 +15,9 @@ export default function SubWebDesign() {
             <div className="columns-1 mb-5">
               <div className="grid justify-items-center">
                 <img
-                  className="object-cover object-center w-auto h-[650px] 2xl:h-[650px] 3xl:h-[750px]"
-                  src="../../assets/images/service/WebDesign/pic-illustration-head-1.png"
-                  alt="pic-illustration-head-1"
+                  className="object-cover object-center w-full h-auto"
+                  src="../../assets/images/service/WebDesign/Web-Design.jpg"
+                  alt="Web Design"
                 />
               </div>
             </div>
@@ -26,7 +26,7 @@ export default function SubWebDesign() {
         <div className="container mx-auto mt-0">
           <div className="relative">
             <div>
-              <div className="max-w-full mx-auto -py-4 px-4 lg:flex lg:items-center lg:justify-end -mt-10">
+              <div className="max-w-full mx-auto lg:flex lg:items-center lg:justify-end ">
                 <p className="inline-block h-screen 3xl:h-[75vh] w-full bg-white"></p>
               </div>
             </div>

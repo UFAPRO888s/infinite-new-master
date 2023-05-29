@@ -3,9 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CustomEase } from "gsap/CustomEase";
 
-
 gsap.registerPlugin(ScrollTrigger, CustomEase);
-
 
 export default function ContactSection() {
   return (
@@ -14,11 +12,13 @@ export default function ContactSection() {
         <div className="container mx-auto">
           <div className="bg-infinite1-100 h-screen px-4">
             <div className="columns-1 mb-10">
-              <img
-                className="object-cover object-center w-screen h-[650px] 2xl:h-[650px]"
-                src="../assets/images/contact/pic-contact.jpg"
-                alt="pic-contact"
-              />
+              <div className="grid justify-items-center">
+                <img
+                  className="object-cover object-center w-full h-auto"
+                  src="../assets/images/contact/pic-contact.jpg"
+                  alt="pic-contact"
+                />
+              </div>
             </div>
           </div>
           <div className="bg-infinite1-100 h-screen">
@@ -132,7 +132,7 @@ export default function ContactSection() {
                     </div>
                   </div>
                 </div>
-                <form >
+                <form>
                   <div className="grid grid-cols-12 relative">
                     <div className="col-span-12 mx-20 text-left font-bold font-Prompt">
                       <div className="grid justify-items-start w-full">
@@ -230,8 +230,7 @@ export default function ContactSection() {
                           <p>ส่ง</p>
                         </button>
                       </div>
-                      <div className="message">
-                      </div>
+                      <div className="message"></div>
                     </div>
                   </div>
                 </form>

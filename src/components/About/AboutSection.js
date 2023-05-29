@@ -12,11 +12,13 @@ export default function AboutSection() {
         <div className="hidden md:block">
           <div className="bg-infinite1-100 px-4">
             <div className="columns-1 mb-10">
-              <img
-                className="object-cover object-center w-screen h-[650px] 2xl:h-[650px]"
-                src="../../assets/images/about/image-หน้า-about-us-01.png"
-                alt="หน้า-about-us"
-              />
+              <div className="grid justify-items-center">
+                <img
+                  className="object-cover object-center w-full h-auto"
+                  src="../../assets/images/about/image-หน้า-about-us-01.png"
+                  alt="หน้า-about-us"
+                />
+              </div>
             </div>
             <div className="columns-1">
               <div className="relative">
@@ -204,7 +206,9 @@ export default function AboutSection() {
                     />
                   </div>
                   <p className="text-2xl font-semibold mx-10 my-2 text-center">
-                    วัฒนธรรมที่อินฟินิตี้ ถูกสร้างขึ้นมาจากกลุ่มคนที่มีความทะเยอทะยานและหลงใหล ในสื่อดิจิทัล.
+                    วัฒนธรรมที่อินฟินิตี้
+                    ถูกสร้างขึ้นมาจากกลุ่มคนที่มีความทะเยอทะยานและหลงใหล
+                    ในสื่อดิจิทัล.
                   </p>
                   <div className="grid justify-items-end">
                     <img

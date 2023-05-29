@@ -13,11 +13,13 @@ export default function WorkSection() {
         <div className="hidden md:block">
           <div className="bg-infinite1-100 px-4">
             <div className="columns-1 mb-10">
-              <img
-                className="object-cover object-center w-screen h-[650px] 2xl:h-[650px]"
-                src="../assets/images/work/pic-work.jpg"
-                alt="pic-work"
-              />
+              <div className="grid justify-items-center">
+                <img
+                  className="object-cover object-center w-full h-auto"
+                  src="../../assets/images/work/pic-work.jpg"
+                  alt="/pic-work"
+                />
+              </div>
             </div>
             <div className="columns-1">
               <div className="relative">
