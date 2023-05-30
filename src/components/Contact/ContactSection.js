@@ -42,10 +42,10 @@ export default function ContactSection() {
                       </div>
                       <div className="col-span-5 3xl:mx-10 2xl:mt-48 3xl:mt-56 text-left font-bold tracking-widest">
                         <div className="grid justify-items-start w-full mx-14 ">
-                          <h2 className="2xl:text-5xl 3xl:text-5xl mb-5 font-R-FLEX leading-[3rem] 3xl:leading-[4rem] uppercase">
+                          <h2 className="2xl:text-4xl 3xl:text-5xl mb-5 font-R-FLEX leading-[3rem] 3xl:leading-[4rem] uppercase">
                             Infinity Digital <br /> Studio
                           </h2>
-                          <ul className="xl:text-xl 3xl:text-2xl font-normal list-none leading-8 3xl:leading-10 text-left">
+                          <ul className="xl:text-xl 3xl:text-2xl font-normal list-none leading-8 3xl:leading-9 text-left">
                             <li>อาคารมาริโกลด์ ทาวเวอร์ สุวรรณภูมิ</li>
                             <li>
                               ชั้นที่ <span className="font-Prompt">5</span>{" "}
