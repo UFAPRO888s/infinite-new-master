@@ -10,7 +10,7 @@ export default function ContactSection() {
     <>
       <div className="hidden md:block">
         <div className="container mx-auto">
-          <div className="bg-infinite1-100 h-screen px-4">
+          <div className="bg-infinite1-100 h-screen px-0">
             <div className="columns-1 mb-10">
               <div className="grid justify-items-center">
                 <img
@@ -22,10 +22,10 @@ export default function ContactSection() {
             </div>
           </div>
           <div className="bg-infinite1-100 h-screen">
-            <div className="max-w-full mx-auto px-4 lg:items-center lg:justify-center">
+            <div className="max-w-full mx-auto px-0 lg:items-center lg:justify-center">
               <div className="relative bg-infinite1-100">
                 <div>
-                  <div className="max-w-full mx-auto -py-4 lg:flex lg:items-center lg:justify-between -mt-12">
+                  <div className="max-w-full mx-auto py-0 lg:flex lg:items-center lg:justify-between mt-0">
                     <p className="inline-block h-screen w-1/6 bg-in-purple-3"></p>
                     <p className="inline-block h-screen w-5/12 bg-white"></p>
                   </div>
@@ -42,19 +42,26 @@ export default function ContactSection() {
                       </div>
                       <div className="col-span-5 3xl:mx-10 2xl:mt-48 3xl:mt-56 text-left font-bold tracking-widest">
                         <div className="grid justify-items-start w-full mx-14 ">
-                          <h2 className="2xl:text-5xl 3xl:text-5xl mb-5 font-R-FLEX">
+                          <h2 className="2xl:text-5xl 3xl:text-5xl mb-5 font-R-FLEX leading-[3rem] 3xl:leading-[4rem] uppercase">
                             Infinity Digital <br /> Studio
                           </h2>
-                          <p className="2xl:text-2xl 3xl:text-3xl font-light">
-                            <span className="font-Prompt">33/52</span> วิลล่า
-                            อัลแบโร่ พระราม
-                            <span className="font-Prompt">9</span> <br />
-                            ถนนกรุงเทพกรีฑา แขวงสะพานสูง <br />
-                            เขตสะพานสูง กรุงเทพมหานคร <br />
-                            <span className="font-Prompt">10240</span>
-                          </p>
+                          <ul className="xl:text-xl 3xl:text-2xl font-normal list-none leading-8 3xl:leading-10 text-left">
+                            <li>อาคารมาริโกลด์ ทาวเวอร์ สุวรรณภูมิ</li>
+                            <li>
+                              ชั้นที่ <span className="font-Prompt">5</span>{" "}
+                              ห้องเลขที่{" "}
+                              <span className="font-Prompt">1507 </span>
+                              ซอยลาดกระบัง{" "}
+                              <span className="font-Prompt">1</span>
+                            </li>
+                            <li>ถนนอ่อนนุช-ลาดกระบัง แขวงลาดกระบัง</li>
+                            <li>
+                              เขตลาดกระบัง กรุงเทพมหานคร{" "}
+                              <span className="font-Prompt">10520</span>{" "}
+                            </li>
+                          </ul>
                           <div className="grid justify-items-start w-full my-10">
-                            <a href="https://goo.gl/maps/nhNzrjjLY9BYbopw5">
+                            <a href="https://goo.gl/maps/4jEECn3S87Dt87hHA">
                               <button className="in-button">
                                 <img
                                   className="object-none object-center"
@@ -76,7 +83,7 @@ export default function ContactSection() {
         <div className="container mx-auto">
           <div className="relative">
             <div>
-              <div className="max-w-full mx-auto p-4 lg:flex lg:items-center lg:justify-end -mt-12">
+              <div className="max-w-full mx-auto px-0 lg:flex lg:items-center lg:justify-end">
                 <p className="inline-block h-750 w-full bg-infinite2-2"></p>
               </div>
             </div>
@@ -84,9 +91,9 @@ export default function ContactSection() {
               <div className="h-full w-full">
                 <div className="grid grid-cols-12 relative">
                   <div className="col-span-full text-center font-bold">
-                    <div className="grid justify-items-start w-full">
+                    <div className="grid justify-items-start w-full ">
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3875.532632847678!2d100.6700598!3d13.7467221!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3588c0710db29522!2zMTPCsDQ0JzQ5LjUiTiAxMDDCsDQwJzE0LjIiRQ!5e0!3m2!1sth!2sth!4v1655737126626!5m2!1sth!2sth"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.933546187791!2d100.7172479148301!3d13.722473090366423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d611d93b63301%3A0x460dbb45df3a8d0!2sMarigold%20Tower%20Suvarnabhumi!5e0!3m2!1sth!2sth!4v1685409411993!5m2!1sth!2sth"
                         className="w-full h-680"
                         display="initial"
                         position="relative"
@@ -101,16 +108,16 @@ export default function ContactSection() {
         <div className="container mx-auto">
           <div className="relative">
             <div>
-              <div className="max-w-full mx-auto -py-4 px-4 lg:flex lg:items-center lg:justify-end -mt-10">
+              <div className="max-w-full mx-auto py-0 px-0 lg:flex lg:items-center lg:justify-end mt-0">
                 <p className="inline-block h-screen w-full bg-white"></p>
               </div>
-              <div className="max-w-full mx-auto -py-4 px-4 lg:flex lg:items-center lg:justify-end -mt-10">
+              <div className="max-w-full mx-auto py-0 px-0 lg:flex lg:items-center lg:justify-end mt-0">
                 <p className="inline-block h-96 w-full bg-white"></p>
               </div>
-              <div className="max-w-full mx-auto -py-4 px-4 lg:flex lg:items-center lg:justify-end -mt-10">
+              <div className="max-w-full mx-auto py-0 px-0 lg:flex lg:items-center lg:justify-end mt-0">
                 <p className="inline-block h-32 w-full bg-white"></p>
               </div>
-              <div className="max-w-full mx-auto -py-4 px-4 lg:flex lg:items-center lg:justify-between">
+              <div className="max-w-full mx-auto py-0 px-0 lg:flex lg:items-center lg:justify-between">
                 <p className="inline-block h-32 w-2/5 bg-infinite1-200"></p>
                 <p className="inline-block h-32 w-1/5 bg-infinite2-2"></p>
               </div>
@@ -118,16 +125,16 @@ export default function ContactSection() {
             <div className="absolute top-10 right-0 w-full text-right">
               <div className="h-full w-full">
                 <div className="grid grid-cols-12 relative">
-                  <div className="col-span-full m-16 text-center font-bold">
+                  <div className="col-span-full mx-16 my-5 text-center font-bold">
                     <div className="grid justify-items-start w-full">
-                      <h2 className="text-5xl font-normal">
+                      <h2 className="text-3xl 3xl:text-4xl font-normal mt-5 leading-8 3xl:leading-10">
                         ปรึกษาเราได้ในทุกเรื่องธุรกิจ
                         <span className="font-normal text-infinite2-2">
                           ที่คุณต้องการ...
                         </span>
                       </h2>
                     </div>
-                    <div className="grid justify-items-center w-32 my-10 border bg-gray-dark">
+                    <div className="grid justify-items-center w-32 my-5 border bg-gray-dark">
                       <hr />
                     </div>
                   </div>
@@ -146,7 +153,7 @@ export default function ContactSection() {
                             required
                             className="py-3 px-5 block w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-lg mb-2 
                           focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-red
+                        invalid:text-gray-dark
                         focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
@@ -160,7 +167,7 @@ export default function ContactSection() {
                             required
                             className="py-3 px-5 block w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-lg mb-2 
                           focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-red
+                        invalid:text-gray-dark
                         focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
@@ -175,7 +182,7 @@ export default function ContactSection() {
                             required
                             className="py-3 px-5 block w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-lg mb-2 
                           focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-red
+                        invalid:text-gray-dark
                         focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
@@ -189,7 +196,7 @@ export default function ContactSection() {
                             required
                             className="py-3 px-5 block w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-lg mb-2 
                           focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-red
+                        invalid:text-gray-dark
                         focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
@@ -203,7 +210,7 @@ export default function ContactSection() {
                             required
                             className="py-3 px-5 block w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-lg mb-2 
                           focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-red
+                        invalid:text-gray-dark
                         focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
@@ -217,7 +224,7 @@ export default function ContactSection() {
                             required
                             className="py-3 px-5 block w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-lg mb-2 
                           focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-red
+                        invalid:text-gray-dark
                         focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>

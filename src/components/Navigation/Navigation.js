@@ -272,7 +272,7 @@ export default function Navigation() {
                             />
                           </a>
                         </div>
-                        <div className="grid justify-items-end w-3/4 h-auto">
+                        <div className="grid justify-items-end w-3/4 h-auto pr-4">
                           <div className="flex items-end">
                             {navigation.map((item, InnavServXC) =>
                               item.current ? (

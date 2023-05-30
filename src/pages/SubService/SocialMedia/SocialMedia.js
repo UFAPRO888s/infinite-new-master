@@ -42,12 +42,12 @@ export default function Seo() {
     <>
       <main>
         <Helmet>
-          <title>Seo Digital Marketing - Infinite Digital Cunsultants</title>
+          <title>Creative online and printing | Infinite Digital Consultants</title>
           <meta
             name="description"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            content="เราให้บริการด้านการตลาดและโฆษณาออนไลน์แบบครบวงจร เราเริ่มต้นด้วยการทำวิจัย ที่ครอบคลุม นั่นรวมถึงการวิจัยตลาดการวิจัยทางธุรกิจการวิจัยผลิตภัณฑ์และบริการ การวิจัยคู่แข่ง และการวิจัย Trend ของตลาด"
           />
-          <link rel="canonical" href="http://mysite.com/example" />
+          <link rel="canonical" href="https://theinfinitedigital.com/services/digital" />
         </Helmet>
       </main>
       <main>

@@ -37,17 +37,16 @@ export default function Work() {
     });
   }, []);
 
-  
   return (
     <>
       <main>
         <Helmet>
-          <title>Contact - Infinite Digital Cunsultants</title>
+          <title>Contact - Infinite Digital Consultants</title>
           <meta
             name="description"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            content="ปรึกษาเราได้ในทุกเรื่องธุรกิจที่คุณต้องการ ที่อาคารมาริโกลด์ ทาวเวอร์ สุวรรณภูมิ ชั้นที่ 5 ห้องเลขที่ 1507 ซอยลาดกระบัง 1 ถนนอ่อนนุช-ลาดกระบัง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520"
           />
-          <link rel="canonical" href="http://mysite.com/example" />
+          <link rel="canonical" href="https://theinfinitedigital.com/contact" />
         </Helmet>
       </main>
       <main>

@@ -27,7 +27,7 @@ export default function SubWebDesign() {
           <div className="relative">
             <div>
               <div className="max-w-full mx-auto lg:flex lg:items-center lg:justify-end ">
-                <p className="inline-block h-screen 3xl:h-[75vh] w-full bg-white"></p>
+                <p className="inline-block h-screen 3xl:h-[80vh] w-full bg-white"></p>
               </div>
             </div>
             <div className="absolute top-10 right-0 w-full text-right">
@@ -36,10 +36,10 @@ export default function SubWebDesign() {
                   <div className="col-span-6 ml-20 mr-5 text-left font-bold">
                     <div className="grid justify-items-start w-full">
                       <blockquote>
-                        <h2 className="text-7xl 2xl:text-8xl 3xl:text-9xl mt-5 text-in-purple-1">
+                        <h2 className="text-7xl 3xl:text-8xl mt-5 text-in-purple-1 font-R-FLEX">
                           Web Design
                         </h2>
-                        <h3 className="text-3xl 2xl:text-4xl 3xl:text-5xl font-normal mt-5 text-infinite2-3 leading-normal">
+                        <h3 className="text-3xl 3xl:text-4xl font-normal mt-5 text-infinite2-3 leading-8 3xl:leading-10">
                           ออกแบบพัฒนาเว็บไซต์ <br />
                           ครบวงจร
                         </h3>
@@ -57,23 +57,23 @@ export default function SubWebDesign() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-span-6 mx-16 text-left">
+                  <div className="col-span-6 mx-16 text-left leading-normal whitespace-pre-wrap">
                     <blockquote className="my-14">
-                      <p className="text-xl 2xl:text-xl 3xl:text-2xl font-normal text-in-purple-2 whitespace-pre-wrap">
+                      <h3 className="text-2xl 3xl:text-3xl mt-10 font-normal text-in-purple-2">
                         Infinity Digital Agency ให้บริการออกแบบและพัฒนาเว็บไซต์
                         เว็บแอปพลิเคชันและแอปพลิเคชันมือถือครบวงจร
-                      </p>
-                      <p className="text-xl 2xl:text-xl 3xl:text-2xl font-light whitespace-pre-wrap">
+                      </h3>
+                      <p className="text-xl 3xl:text-2xl mt-1 font-normal leading-8 3xl:leading-10 whitespace-pre-wrap">
                         เราเริ่มต้นทุกงานด้วยการวิจัยและการวางแผน การออกแบบ UX
                         UI การออกแบบเว็บไซต์ การพัฒนาเว็บไซต์ การ deploy ขึ้น
                         server และบริการดูแลหลังการขาย
                       </p>
                     </blockquote>
                     <blockquote>
-                      <p className="text-xl 2xl:text-xl 3xl:text-2xl font-normal text-in-purple-2 whitespace-pre-wrap">
+                      <p className="text-2xl 3xl:text-3xl mt-10 font-normal text-in-purple-2">
                         เราออกแบบเว็บไซต์และแอปพลิเคชันมือถือเฉพาะเจาะจงเพื่อธุรกิจของคุณเท่านั่น
                       </p>
-                      <p className="text-xl 2xl:text-xl 3xl:text-2xl font-light whitespace-pre-wrap">
+                      <p className="text-xl 3xl:text-2xl mt-1 font-normal leading-8 3xl:leading-10 whitespace-pre-wrap">
                         เราไม่ใช้เทมเพลต
                         หรือธีมในการออกแบบและพัฒนาเว็บไซต์และแอปพลิเคชันมือถือของคุณ
                         เราออกแบบและพัฒนาเว็บไซต์และแอปพลิเคชันมือถือของคุณตั้งแต่เริ่มต้น!
@@ -92,20 +92,21 @@ export default function SubWebDesign() {
               <div className="grid grid-cols-12 relative">
                 <div className="col-span-6 mx-20 text-left">
                   <blockquote className="my-20">
-                    <h3 className="text-4xl 2xl:text-5xl 3xl:text-6xl font-medium text-in-purple-1">
+                    <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold text-in-purple-1">
                       ออกแบบ UX UI
                     </h3>
-                    <p className="text-xl 2xl:text-2xl 3xl:text-3xl font-light mt-2 text-in-purple-1">
-                      เราคือผู้เชี่ยวชาญด้านการออกแบบ UX & UI
-                      <br />
-                      สำหรับเว็บไซต์และแอปมือถือ
+                    <p className="text-3xl 3xl:text-4xl font-light mt-2 leading-normal font-Prompt text-in-purple-1">
+                      เราคือผู้เชี่ยวชาญด้านการออกแบบ
+                    </p>
+                    <p className="text-3xl 3xl:text-4xl font-light mt-2 leading-normal font-Prompt text-in-purple-1 ">
+                      UX & UI สำหรับเว็บไซต์และแอปมือถือ
                     </p>
                   </blockquote>
                   <div className="grid justify-items-center w-full my-10 border bg-gray-dark">
                     <hr />
                   </div>
                   <blockquote>
-                    <div className="2xl:text-2xl 3xl:text-3xl font-normal mt-12 leading-normal whitespace-pre-wrap">
+                    <div className="text-xl 3xl:text-2xl font-normal mt-12 leading-normal whitespace-pre-wrap ">
                       <ul className="list-inside list-disc">
                         <li>การออกแบบ UX & UI</li>
                         <li>การออกแบบกราฟฟิก / ระบบสีและภาพ</li>
@@ -142,11 +143,10 @@ export default function SubWebDesign() {
                   </div>
                 </div>
                 <div className="col-span-6 mx-5 text-left">
-                  <h3 className="2xl:text-5xl 3xl:text-6xl mt-10 font-medium leading-tight text-in-purple-1">
-                    ออกแบบเว็บไซต์อย่างไร
-                    <br /> ให้เหมาะกับธุรกิจของคุณ ?
+                  <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold text-in-purple-1">
+                    ออกแบบเว็บไซต์อย่างไรให้เหมาะกับธุรกิจของคุณ ?
                   </h3>
-                  <p className="2xl:text-2xl 3xl:text-3xl font-light mt-8 leading-normal">
+                  <p className="text-xl 3xl:text-2xl font-normal mt-8 leading-8 3xl:leading-10">
                     รูปแบบการทำเว็บไซต์หรือออกแบบเว็บไซต์นั้น
                     จะขึ้นอยู่กับเป้าหมายของคุณเป็นหลัก
                     ถ้าหากคุณต้องการให้ลูกค้าสามารถเข้ามาเลือกซื้อสินค้า
@@ -183,7 +183,7 @@ export default function SubWebDesign() {
                   <h2 className="2xl:text-3xl 3xl:text-4xl font-semibold leading-normal text-in-purple-3">
                     กระบวนการออกแบบเว็บไซต์
                   </h2>
-                  <p className="2xl:text-xl 3xl:text-2xl font-light leading-normal  text-in-purple-3">
+                  <p className="2xl:text-xl 3xl:text-2xl font-normal leading-normal  text-in-purple-3">
                     Website Design Process
                   </p>
                   <div className="grid grid-cols-12 gap-0">
@@ -197,7 +197,7 @@ export default function SubWebDesign() {
                           />
                         </div>
                         <div>
-                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-light leading-normal">
+                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                             เก็บข้อมูลครบทุกรายละเอียด <br />
                             เพื่อนำมาวิเคราะห์ ก่อนออกแบบเว็บไซต์
                           </p>
@@ -212,7 +212,7 @@ export default function SubWebDesign() {
                           />
                         </div>
                         <div>
-                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-light leading-normal">
+                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                             เก็บข้อมูลครบทุกรายละเอียด <br />
                             เพื่อนำมาวิเคราะห์ ก่อนออกแบบเว็บไซต์
                           </p>
@@ -229,7 +229,7 @@ export default function SubWebDesign() {
                           />
                         </div>
                         <div>
-                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-light leading-normal">
+                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                             เก็บข้อมูลครบทุกรายละเอียด <br />
                             เพื่อนำมาวิเคราะห์ ก่อนออกแบบเว็บไซต์
                           </p>
@@ -243,15 +243,15 @@ export default function SubWebDesign() {
                           />
                         </div>
                         <div>
-                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-light leading-normal">
+                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                             เก็บข้อมูลครบทุกรายละเอียด <br />
                             เพื่อนำมาวิเคราะห์ ก่อนออกแบบเว็บไซต์
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div className="col-start-3 col-span-8">
-                      <p className="text-center 2xl:text-xl 3xl:text-2xl font-light leading-normal">
+                    <div className="col-start-3 col-span-8 mt-5">
+                      <p className="text-center 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                         เรามีทีมโปรแกรมเมอร์และทีมพัฒนาที่พร้อมรับช่วงต่อ <br />
                         เพื่อนำแบบเว็บไซต์ที่สวยงามให้เป็นเว็บไซต์ที่ใช้งานได้จริง
                       </p>
@@ -276,9 +276,17 @@ export default function SubWebDesign() {
         <div className="container mx-auto mt-18">
           <div className="relative mb-28">
             <div className="h-full w-full">
+              
+              <div className="grid grid-cols-12 relative">
+                <div className="col-span-12">
+                  <div>
+                    <SlideWork />
+                  </div>
+                </div>
+              </div>
               <div className="grid grid-cols-12 relative">
                 <div className="col-span-full mx-20 text-center font-bold">
-                  <div className="grid justify-items-start w-full my-10">
+                  <div className="grid justify-items-center w-full my-10">
                     <button className="in-button">
                       <img
                         className="object-none object-center"
@@ -286,13 +294,6 @@ export default function SubWebDesign() {
                         alt="ปุ่ม6"
                       />
                     </button>
-                  </div>
-                </div>
-              </div>
-              <div className="grid grid-cols-12 relative">
-                <div className="col-span-12">
-                  <div>
-                    <SlideWork />
                   </div>
                 </div>
               </div>

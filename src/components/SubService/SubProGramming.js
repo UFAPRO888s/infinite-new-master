@@ -26,7 +26,7 @@ export default function SubProGramming() {
           <div className="relative">
             <div>
               <div className="max-w-full mx-auto lg:flex lg:items-center lg:justify-end">
-                <p className="inline-block h-screen w-full bg-white"></p>
+                <p className="inline-block h-[70vh] w-full bg-white"></p>
               </div>
             </div>
             <div className="absolute top-10 right-0 w-full text-right">
@@ -34,15 +34,10 @@ export default function SubProGramming() {
                 <div className="grid grid-cols-12 relative">
                   <div className="col-span-6 mx-16 text-left font-bold">
                     <div className="grid justify-items-start w-full">
-                      <h2 className="text-8xl 3xl:text-9xl mt-5 text-in-purple-1 font-R-FLEX">
-                        Expert
-                        <br />
-                        Program-
-                        <br />
-                        ming
-                        <br />
+                      <h2 className="text-7xl 3xl:text-8xl mt-5 text-in-purple-1 font-R-FLEX">
+                        Expert Programming
                       </h2>
-                      <h3 className="text-4xl 3xl:text-5xl font-normal mt-5 text-infinite2-3 leading-normal">
+                      <h3 className="text-3xl 3xl:text-4xl font-normal mt-5 text-infinite2-3 leading-8 3xl:leading-10">
                         รับเขียนโปรแกรม
                         <br />
                         พัฒนาระบบตาม
@@ -62,8 +57,8 @@ export default function SubProGramming() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-span-6 -ml-10 mr-16 text-left">
-                    <p className="text-3xl 3xl:text-4xl font-light mt-12 leading-normal 3xl:leading-relaxed whitespace-pre-wrap">
+                  <div className="col-span-6 mx-16 text-left leading-8 3xl:leading-10 whitespace-pre-wrap">
+                    <p className="text-xl 3xl:text-2xl font-normal mt-12 leading-8 3xl:leading-10  whitespace-pre-wrap">
                       ทีมงานรับเขียนโปรแกรมและพัฒนาระบบตามความต้องการของท่านอย่างมืออาชีพรองรับทุกการใช้งานกับทุกธุรกิจ
                       เราพัฒนาโปรแกรมและรับทำเว็บไซต์ทุกรูปแบบและหลากหลายเพื่อให้เหมาะกับการใช้งานของท่าน
                       ด้วยประสบการณ์ที่เรามีมามากกว่า 10 ปี
@@ -83,19 +78,19 @@ export default function SubProGramming() {
             <div className="h-full w-full">
               <div className="grid grid-cols-12 relative">
                 <div className="col-span-5 ml-4 text-left font-bold">
-                  <div className="grid justify-items-start w-full">
+                  <div className="grid justify-items-start w-4/5">
                     <img
-                      className="w-screen h-auto"
+                      className="w-full h-auto"
                       src="../../assets/images/service/ProGramming/pic-illustration-01.png"
                       alt="Infinite"
                     />
                   </div>
                 </div>
                 <div className="col-span-7 mr-4 ml-10 text-left">
-                  <h3 className="text-5xl 3xl:text-6xl mt-10 font-normal font-Prompt text-in-purple-1">
+                  <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold text-in-purple-1">
                     รับเขียนโปรแกรมมืออาชีพ
                   </h3>
-                  <p className="text-3xl 3xl:text-4xl font-normal mt-12 leading-normal 3xl:leading-relaxed whitespace-pre-wrap">
+                  <p className="text-xl 3xl:text-2xl font-normal mt-12 leading-8 3xl:leading-10 whitespace-pre-wrap">
                     ท่านจะไม่ผิดหวังกับโปรแกรมหรือระบบที่เราส่งมอบให้
                     เรามีทีมงานที่พัฒนาโปรแกรมได้หลายหลายรูปแบบ
                     ทั้งโปรแกรมขนาดเล็ก หรือ โปรแกรมขนาดใหญ่ ด้วยทีมงานมืออาชีพ
@@ -121,21 +116,19 @@ export default function SubProGramming() {
               </div>
               <div className="grid grid-cols-12 relative mt-28">
                 <div className="col-span-6 mx-4 text-left">
-                  <h3 className="text-5xl 3xl:text-6xl mt-10 font-normal leading-tight text-in-purple-1">
-                    รับเขียนโปรแกรมเว็บ
-                    <br />
-                    แอพพลิเคชั่น
+                  <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold text-in-purple-1">
+                    รับเขียนโปรแกรมเว็บแอพพลิเคชั่น
                   </h3>
-                  <p className="text-3xl 3xl:text-4xl font-normal mt-12 leading-normal 3xl:leading-relaxed whitespace-pre-wrap">
+                  <p className="text-xl 3xl:text-2xl font-normal mt-12 leading-8 3xl:leading-10 whitespace-pre-wrap">
                     รับเขียนโปรแกรมเว็บแอพพลิเคชั่น สำหรับธุรกิจต่างๆ
                     ตามความต้องการของลูกค้า สามารถแสดงผลได้ทั้งบน PC, Notebook,
                     Smartphone
                   </p>
                 </div>
                 <div className="col-span-6 mx-0 text-left font-bold">
-                  <div className="grid justify-items-start w-full">
+                  <div className="grid justify-items-start w-4/5">
                     <img
-                      className="w-screen h-auto"
+                      className="w-full h-auto"
                       src="../../assets/images/service/ProGramming/pic-illustration-head-2.png"
                       alt="Infinite"
                     />
@@ -171,12 +164,12 @@ export default function SubProGramming() {
                       <div className="h-full w-full">
                         <div className="grid grid-cols-12 mx-5 relative">
                           <div className="col-span-12 mx-20 text-center mb-10">
-                            <h3 className="text-4xl 3xl:text-5xl mt-10 font-normal leading-normal italic text-in-purple-1">
+                            <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold leading-[3rem] 3xl:leading-[4rem] italic text-in-purple-1">
                               " ผู้ใช้จะสามารถเข้าถึงเว็บไซต์คุณได้ <br />
                               ไม่ว่าจะใช้คอมพิวเตอร์ มือถือ
                               และเบราว์เซอร์ใดก็ตาม "
                             </h3>
-                            <p className="text-2xl 3xl:text-3xl font-light mt-12 leading-normal whitespace-pre-wrap">
+                            <p className="text-xl 3xl:text-2xl font-normal mt-12 leading-8 3xl:leading-10 whitespace-pre-wrap">
                               Infinity Digital เราคำนึงถึงความสำคัญของการเข้าใช้
                               เรารับรองว่าเว็บไซต์และเว็บแอปพลิเคชั่น
                               เว็บของคุณจะสามารถเข้าถึงได้จากทุกๆอุปกรณ์
@@ -189,7 +182,7 @@ export default function SubProGramming() {
                           <div className="col-span-12 mx-20 text-left font-bold">
                             <div className="grid justify-items-center w-full">
                               <img
-                                className="object-contain w-full h-20"
+                                className="object-contain w-auto h-20"
                                 src="../../assets/images/service/ProGramming/pic-icon-คำคม.png"
                                 alt="Infinite"
                               />

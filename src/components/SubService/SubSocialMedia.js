@@ -27,8 +27,8 @@ export default function SubSocialMedia() {
         <div className="container mx-auto mt-0">
           <div className="relative">
             <div>
-              <div className="max-w-full mx-auto  lg:flex lg:items-center lg:justify-end">
-                <p className="inline-block h-screen w-full bg-white"></p>
+              <div className="max-w-full mx-auto lg:flex lg:items-center lg:justify-end">
+                <p className="inline-block h-[80vh] w-full bg-white"></p>
               </div>
             </div>
             <div className="absolute top-10 right-0 w-full text-right">
@@ -41,7 +41,7 @@ export default function SubSocialMedia() {
                         <br />
                         and printing
                       </h2>
-                      <h3 className="text-4xl 3xl:text-5xl font-normal mt-5 text-infinite2-3 leading-normal">
+                      <h3 className="text-3xl 3xl:text-4xl font-normal mt-5 text-infinite2-3 leading-8 3xl:leading-10">
                         เอเจนซี่การตลาด
                         <br />
                         และโฆษณาออนไลน์
@@ -57,22 +57,22 @@ export default function SubSocialMedia() {
                       </button>
                     </div>
                   </div>
-                  <div className="col-span-6 ml-7 mr-16 text-left">
-                    <h3 className="text-3xl 3xl:text-4xl mt-10 font-normal text-in-purple-2 leading-normal whitespace-pre-wrap">
+                  <div className="col-span-6 ml-7 mr-16 text-left leading-8 3xl:leading-10 whitespace-pre-wrap">
+                    <h3 className="text-3xl 3xl:text-4xl mt-10 font-normal text-in-purple-2">
                       ให้บริการด้านการตลาดและโฆษณาดิจิตอลแบบครบวงจร ที่{" "}
-                      <span className="text-infinite3">
+                      <span className="text-infinite3 uppercase ">
                         Infinity Digital Agency
                       </span>{" "}
                     </h3>
-                    <p className="text-3xl 3xl:text-4xl font-light leading-normal whitespace-pre-wrap">
+                    <p className="text-xl 3xl:text-2xl font-normal mt-2 leading-8 3xl:leading-10 whitespace-pre-wrap">
                       เราให้บริการด้านการตลาดและโฆษณาออนไลน์แบบครบวงจร
                       เราเริ่มต้นด้วยการทำวิจัย ที่ครอบคลุม
                       นั่นรวมถึงการวิจัยตลาดการวิจัยทางธุรกิจการวิจัยผลิตภัณฑ์และบริการ
                       การวิจัยคู่แข่ง และการวิจัย{" "}
                       <span className="text-infinite3">Trend</span> ของตลาด
                     </p>
-                    <p className="text-3xl 3xl:text-4xl font-light mt-10 leading-normal whitespace-pre-wrap">
-                      <span className="font-normal text-in-purple-2">
+                    <p className="text-xl 3xl:text-2xl font-normal mt-2 leading-8 3xl:leading-10 whitespace-pre-wrap">
+                      <span className="text-3xl 3xl:text-4xl mt-10 font-normal text-in-purple-2">
                         ทีมการตลาดออนไลน์ของเรา
                       </span>
                       พัฒนากลยุทธ์ทางการตลาดและการวางแผนแคมเปญที่เต็ม รูปแบบ
@@ -104,12 +104,10 @@ export default function SubSocialMedia() {
                   </div>
                 </div>
                 <div className="col-span-7 mr-4 ml-10 text-left">
-                  <h3 className="text-5xl 3xl:text-6xl font-normal leading-snug text-in-purple-1">
-                    วิจัยและวางแผน
-                    <br />
-                    การตลาดออนไลน์
+                  <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold font-Prompt text-in-purple-1">
+                    วิจัยและวางแผนการตลาดออนไลน์
                   </h3>
-                  <p className="text-3xl 3xl:text-4xl font-normal mt-5 leading-normal whitespace-pre-wrap">
+                  <p className="text-2xl 3xl:text-3xl font-light mt-2 leading-8 3xl:leading-10 font-Prompt">
                     เราพัฒนาแผนการตลาดดิจิตอลจากวัตถุประสงค์ ของบริษัทคุณ
                     ไม่ว่าจะเป็นการเปิดตัวผลิตภัณฑ์และบริการ
                     เพิ่มการรับรู้ถึงแบรนด์ และเพิ่มยอดขาย
@@ -119,7 +117,7 @@ export default function SubSocialMedia() {
                   </div>
                   <div className="grid grid-cols-12 relative">
                     <div className="col-span-6 mx-4 text-left font-bold">
-                      <div className="text-2xl 3xl:text-3xl font-normal leading-normal whitespace-pre-wrap">
+                      <div className="text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10 whitespace-pre-wrap">
                         <ul className="list-inside list-disc">
                           <li>การวิจัยและการวางแผน</li>
                           <li>สร้าง Concept Creative</li>
@@ -128,7 +126,7 @@ export default function SubSocialMedia() {
                       </div>
                     </div>
                     <div className="col-span-6 mx-4 text-left font-bold">
-                      <div className="text-2xl 3xl:text-3xl font-normal leading-normal whitespace-pre-wrap">
+                      <div className="text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10 whitespace-pre-wrap">
                         <ul className="list-inside list-disc">
                           <li>วางทิศทางของแผนงาน</li>
                           <li>การวางแผนสื่อ</li>
@@ -145,12 +143,10 @@ export default function SubSocialMedia() {
               </div>
               <div className="grid grid-cols-12 relative mt-28">
                 <div className="col-span-7 mr-4 ml-10 text-left">
-                  <h3 className="text-5xl 3xl:text-6xl font-normal leading-snug text-in-purple-1">
-                    โฆษณาดิจิตอล
-                    <br />
-                    และการซื้อสื่อดิจิตอล
+                  <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold font-Prompt text-in-purple-1">
+                    โฆษณาดิจิตอลและการซื้อสื่อดิจิตอล
                   </h3>
-                  <p className="text-3xl 3xl:text-4xl font-normal mt-5 leading-normal whitespace-pre-wrap">
+                  <p className="text-2xl 3xl:text-3xl font-light mt-2 leading-8 3xl:leading-10 font-Prompt">
                     เราโฆษณาแคมเปญการตลาดของคุณบนโซเชียล
                     มีเดียเครื่องมือค้นหาและแพลตฟอร์มดิจิทัลอื่นๆ
                     ไปยังกลุ่มเป้าหมายของคุณ
@@ -160,7 +156,7 @@ export default function SubSocialMedia() {
                   </div>
                   <div className="grid grid-cols-12 relative">
                     <div className="col-span-6 mx-4 text-left font-bold">
-                      <div className="text-2xl 3xl:text-3xl font-normal leading-normal whitespace-pre-wrap">
+                      <div className="text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10 whitespace-pre-wrap">
                         <ul className="list-inside list-disc">
                           <li>โฆษณากูเกิล</li>
                           <li>โฆษณาเฟซบุ๊ก</li>
@@ -169,7 +165,7 @@ export default function SubSocialMedia() {
                       </div>
                     </div>
                     <div className="col-span-6 mx-4 text-left font-bold">
-                      <div className="text-2xl 3xl:text-3xl font-normal leading-normal whitespace-pre-wrap">
+                      <div className="text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10 whitespace-pre-wrap">
                         <ul className="list-inside list-disc">
                           <li>โฆษณายูทูบ</li>
                           <li>โฆษณาทวิตเตอร์</li>

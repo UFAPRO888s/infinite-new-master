@@ -41,13 +41,13 @@ export default function Seo() {
   return (
     <>
       <main>
-        <Helmet>
-          <title>Seo Digital Marketing - Infinite Digital Cunsultants</title>
+      <Helmet>
+          <title>Seo Digital Marketing | Infinite Digital Consultants</title>
           <meta
             name="description"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            content="สร้างคอนเทนท์ SEO ให้เว็บไซต์ติดหน้าแรก บน Google รวมถึงการทำให้ธุรกิจเข้าถึงผู้ใช้งานได้ง่าย ตรงตามกลุ่มเป้าหมาย ได้ทุกที่ทุกเวลา และเพิ่มโอกาสให้แบรนด์หรือธุรกิจของคุณปิดการขายได้มากขึ้น"
           />
-          <link rel="canonical" href="http://mysite.com/example" />
+          <link rel="canonical" href="https://theinfinitedigital.com/services/seo" />
         </Helmet>
       </main>
       <main>

@@ -267,7 +267,7 @@ export default function Footer() {
                 </ul>
               </blockquote>
             </div>
-            <div className="pl-6">
+            <div className="pl-2">
               <blockquote className="text-[0.60rem] font-extralight">
                 <ul className="list-none leading-relaxed text-left">
                   <li>

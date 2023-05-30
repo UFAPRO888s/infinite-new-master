@@ -6,23 +6,23 @@ import { CustomEase } from "gsap/CustomEase";
 const dataourcus = [
   {
     id: "1",
+    alt: "LOGO MRTA",
+    imgURL: "../../assets/images/logo-customers/MRTA.png",
+  },
+  {
+    id: "2",
     alt: "LOGO kinjai",
     imgURL: "../../assets/images/logo-customers/LOGO-kinjai.png",
   },
   {
-    id: "2",
+    id: "3",
     alt: "LOGO Entry",
     imgURL: "../../assets/images/logo-customers/LOGO-Entry.png",
   },
   {
-    id: "3",
+    id: "4",
     alt: "LOGO hotelink",
     imgURL: "../../assets/images/logo-customers/LOGO-hotelink.png",
-  },
-  {
-    id: "4",
-    alt: "LOGO MRTA",
-    imgURL: "../../assets/images/logo-customers/MRTA.png",
   },
   {
     id: "5",
@@ -438,7 +438,7 @@ export default function ContentSectionCopy() {
                       </a>{" "}
                     </div>{" "}
                     <blockquote className="md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-5 md:py-3 lg:py-4 xl:py-5 2xl:py-4 3xl:py-2 md:w-56 lg:w-80 2xl:w-96 3xl:w-[28rem]">
-                      <p className="md:text-xs lg:text-base xl:text-xl 2xl:text-2xl 3xl:text-3xl font-light mb-2 lg:mb-2">
+                      <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl font-light mb-2 lg:mb-2">
                         เราสามารถเพิ่มจำนวนคนเข้าเว็บไซต์ของคุณด้วยกลยุทธ์ที่พิสูจน์มาแล้วว่าได้ผลจริง
                       </p>{" "}
                     </blockquote>{" "}
@@ -510,7 +510,7 @@ export default function ContentSectionCopy() {
                         </button>{" "}
                       </a>{" "}
                     </div>{" "}
-                    <p className="md:text-xs lg:text-base xl:text-xl 2xl:text-2xl 3xl:text-3xl font-light mb-2 lg:mb-2">
+                    <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl  font-light mb-2 lg:mb-2">
                       พัฒนาเว็บไซต์ครบวงจรเรามีทีมโปรแกรมเมอร์
                       ที่พร้อมจะพัฒนาเว็บไซต์แบบครบวงจร
                     </p>{" "}
@@ -570,7 +570,7 @@ export default function ContentSectionCopy() {
                       </a>{" "}
                     </div>{" "}
                     <blockquote className="md:mx-10 lg:mx-10 2xl:mx-5 md:py-3 lg:py-3 2xl:py-4 md:w-56 lg:w-80 2xl:w-96 3xl:w-128">
-                    <p className="md:text-xs lg:text-base xl:text-xl 2xl:text-2xl 3xl:text-3xl font-light mb-2 lg:mb-2">
+                    <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl  font-light mb-2 lg:mb-2">
                       เราให้บริการการสร้างคอนเทนท์ต่างๆ เพื่อให้เว็บไชต์ของคุณสมบูรณ์แบบโดยถูกต้องตามหลัก
                     </p>{" "}
                     </blockquote>{" "}
@@ -642,7 +642,7 @@ export default function ContentSectionCopy() {
                         </button>{" "}
                       </a>{" "}
                     </div>{" "}
-                    <p className="md:text-xs lg:text-base xl:text-xl 2xl:text-2xl 3xl:text-3xl font-light mb-2 lg:mb-2">
+                    <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl  font-light mb-2 lg:mb-2">
                       ทีมงานเขียนโปรแกรมและพัฒนาระบบ ตามความต้องการของลูกค้าอย่างมืออาชีพรอบรับทุกการใช้งานกับธุรกิจ
                     </p>{" "}
                   </div>

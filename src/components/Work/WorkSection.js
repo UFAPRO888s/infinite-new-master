@@ -11,7 +11,7 @@ export default function WorkSection() {
     <>
       <div className="container mx-auto">
         <div className="hidden md:block">
-          <div className="bg-infinite1-100 px-4">
+          <div className="bg-infinite1-100 px-0">
             <div className="columns-1 mb-10">
               <div className="grid justify-items-center">
                 <img
@@ -85,7 +85,7 @@ export default function WorkSection() {
               <div className="grid grid-cols-12 my-10">
                 <div className="col-span-5">
                   <blockquote className="mr-10 my-10">
-                    <h2 className="2xl:text-3xl 3xl:text-4xl font-semibold leading-normal">
+                    <h2 className="text-3xl 3xl:text-4xl font-semibold leading-[2rem] 3xl:leading-[3rem]">
                       Infinite Digital
                       ถูกสร้างขึ้นมาจากกลุ่มคนที่มีความทะเยอทะยาน
                       และหลงใหลในสื่อดิจิทัล
@@ -105,7 +105,7 @@ export default function WorkSection() {
                 </div>
                 <div className="col-span-7">
                   <blockquote className="mr-10 my-11">
-                    <p className="2xl:text-xl 3xl:text-2xl font-light leading-normal">
+                    <p className="2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                       เป้าหมายสูงสุดของเราคือการผสมผสานศิลปะและเทคโนโลยีเข้าด้วยกัน
                       ภารกิจของเราในทุกๆ
                       วันคือการทำให้ทีมเรามีประสิทธิภาพมากขึ้น

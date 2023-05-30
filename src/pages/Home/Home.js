@@ -29,6 +29,7 @@ export default function Home() {
         title="รับทำเว็บไซต์ รับเขียนโปรแกรม ทุกประเภทของธุรกิจ | รับทำ wordpress ออกแบบเว็บไซต์ รองรับ seo"
         description="บริษัท รับทำเว็บไชต์ ด้วยทีมงานดูโครงสร้างครอบคลุมถึง ux/ui และรองรับ seo สามารถออกแบบเว็บไซต์ ด้วย wordpress รวมถึงการ รับทำการตลาดออนไลน์ ทางด้านสื่อดิจิทัลทุกรูปแบบ รับทำ seo ติดหน้า 1 ของ Google"
         lang="th"
+        link rel="canonical" href="https://theinfinitedigital.com/contact"
         openGraph={{
           ogImage: {
             ogImage:

@@ -4,6 +4,84 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CustomEase } from "gsap/CustomEase";
 import SlideHome from "../SlideHome";
 
+const dataourcus = [
+  {
+    id: "1",
+    alt: "LOGO MRTA",
+    imgURL: "../../assets/images/logo-customers/MRTA.png",
+  },
+  {
+    id: "2",
+    alt: "LOGO kinjai",
+    imgURL: "../../assets/images/logo-customers/LOGO-kinjai.png",
+  },
+  {
+    id: "3",
+    alt: "LOGO Entry",
+    imgURL: "../../assets/images/logo-customers/LOGO-Entry.png",
+  },
+  {
+    id: "4",
+    alt: "LOGO hotelink",
+    imgURL: "../../assets/images/logo-customers/LOGO-hotelink.png",
+  },
+  {
+    id: "5",
+    alt: "LOGO n2property",
+    imgURL: "../../assets/images/logo-customers/LOGO-n2property.png",
+  },
+  {
+    id: "6",
+    alt: "LOGO unisyntech",
+    imgURL: "../../assets/images/logo-customers/LOGO-unisyntech.png",
+  },
+  {
+    id: "7",
+    alt: "LOGO ktthome",
+    imgURL: "../../assets/images/logo-customers/LOGO-ktthome.png",
+  },
+  {
+    id: "8",
+    alt: "LOGO yusei",
+    imgURL: "../../assets/images/logo-customers/LOGO-yusei.png",
+  },
+  {
+    id: "9",
+    alt: "LOGO new yellow",
+    imgURL: "../../assets/images/logo-customers/LOGO-new yellow.png",
+  },
+  {
+    id: "10",
+    alt: "LOGO TS.jumnumrod",
+    imgURL: "../../assets/images/logo-customers/LOGO-TS.jumnumrod.png",
+  },
+  {
+    id: "11",
+    alt: "LOGO hrr",
+    imgURL: "../../assets/images/logo-customers/LOGO-hrr.png",
+  },
+  {
+    id: "12",
+    alt: "LOGO amando",
+    imgURL: "../../assets/images/logo-customers/LOGO-amando.png",
+  },
+  {
+    id: "13",
+    alt: "LOGO indesign",
+    imgURL: "../../assets/images/logo-customers/indesign.png",
+  },
+  {
+    id: "14",
+    alt: "LOGO S.K.S.",
+    imgURL: "../../assets/images/logo-customers/sks.png",
+  },
+  {
+    id: "15",
+    alt: "LOGO SunSet",
+    imgURL: "../../assets/images/logo-customers/sunset.png",
+  },
+];
+
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
 export default function HeroSectionCopy() {
@@ -173,15 +251,17 @@ export default function HeroSectionCopy() {
                         alt="we-are"
                       />
                     </div>
-                    <div className="col-start-2 col-span-4 self-center  mr-10 mt-1 xl:mr-10 xl:mt-2 2xl:mr-5 2xl:mt-10">
-                      <p className="font-bold uppercase md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl 3xl:text-7xl text-center">
+                    <div className="col-start-2 col-span-4 self-center  mr-10 mt-1 xl:mr-10 xl:mt-2 2xl:mr-5 2xl:mt-5">
+                      <p className="font-bold uppercase md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl text-center">
                         Infinite Digital Consultants
                       </p>
                       <p className="text-center uppercase font-extralight md:text-sm lg:text-xl xl:text-2xl 3xl:text-3xl mt-0 lg:mt-2 xl:mt-2 2xl:mt-3 3xl:mt-2 ">
                         รับปรึกษาดูแลด้านเว็บไซต์
-                        <br />
+                      </p>
+                      <p className="text-center uppercase font-extralight md:text-sm lg:text-xl xl:text-2xl 3xl:text-3xl mt-0 lg:mt-2 xl:mt-2 2xl:mt-3 3xl:mt-2 ">
                         และระบบโปรแกรม รวมถึงสื่อดิจิทัลออนไลน์
-                        <br />
+                      </p>
+                      <p className="text-center uppercase font-extralight md:text-sm lg:text-xl xl:text-2xl 3xl:text-3xl mt-0 lg:mt-2 xl:mt-2 2xl:mt-3 3xl:mt-2 ">
                         ครบทุกด้านในที่เดียว
                       </p>
                       <p className="text-center font-bold md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl 3xl:text-5xl py-2">
@@ -292,14 +372,13 @@ export default function HeroSectionCopy() {
                     <div className="grid grid-cols-12 items-center text-center">
                       <div className="col-span-12">
                         <blockquote className="my-12" ref={boxRefMo}>
-                          <p className="text-4xl my-2 font-bold leading-tight">
+                          <p className="text-4xl my-2 font-bold leading-tight uppercase">
                             We are <br />
                             Infinite Digital <br />
                             Consultants
                           </p>
                           <p className="text-sm my-2">
-                            อินฟินิท ดิจิทัล คอนซัลแตนท์
-                            คือเอเจนซี่มืออาชีพที่รับทำการตลาดออนไลน์ทุกรูปแบบอย่างครบวงจร
+                            รับปรึกษาดูแลด้านเว็บไซต์และระบบโปรแกรม รวมถึงสื่อดิจิทัลออนไลน์ครบทุกด้านในที่เดียว
                           </p>
                           <p className="font-bold text-xl my-2">
                             “จ้างครั้งเดียวจบ ได้ครบทั้งทีม”
@@ -431,78 +510,24 @@ export default function HeroSectionCopy() {
                             ลูกค้าของเรา
                           </h1>
                           <p className="text-base mb-5">Our Customers</p>
-                          <div className="flex items-stretch mx-3 mt-2">
-                            <div className="self-center m-1">
-                              <div className="p-0">
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-kinjai.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-kinjai"
-                                />
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-hrr.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-hrr"
-                                />
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-ktthome.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-ktthome"
-                                />
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-TS.jumnumrod.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-jumnumrod"
-                                />
-                              </div>
-                            </div>
-                            <div className="self-center m-1">
-                              <div className="p-0">
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-Entry.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-Entry"
-                                />
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-n2property.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-n2property"
-                                />
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-yusei.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-yusei"
-                                />
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-เว็บพระ.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-เว็บพระ"
-                                />
-                              </div>
-                            </div>
-                            <div className="self-center m-1">
-                              <div className="p-0">
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-hotelink.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-hotelink"
-                                />
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-unisyntech.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-unisyntech"
-                                />
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-new yellow.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-yellow"
-                                />
-                                <img
-                                  src="../../assets/images/logo-customers/LOGO-amando.png"
-                                  className="object-cover w-100 h-12 mb-2"
-                                  alt="customers-amando"
-                                />
-                              </div>
+                          <div className="mx-3 mt-2">
+                            <div className="grid grid-cols-3 gap-2 ">
+                              {dataourcus.map((customers, num) => {
+                                return (
+                                  <div
+                                    kay={customers.id}
+                                    className="m-1"
+                                  >
+                                    <div className="p-0">
+                                      <img
+                                        alt={customers.alt}
+                                        src={customers.imgURL}
+                                        className="object-cover w-full h-auto"
+                                      />
+                                    </div>
+                                  </div>
+                                );
+                              })}
                             </div>
                           </div>{" "}
                         </blockquote>
@@ -512,7 +537,7 @@ export default function HeroSectionCopy() {
                 </div>
               </div>
               <div
-                className="max-w-full mx-auto flex items-center justify-center mt-20 z-0"
+                className="max-w-full mx-auto flex items-center justify-center mt-40 z-0"
                 ref={addblockToRefsMo}
               >
                 <p className="inline-block h-px w-10/12 bg-in-purple-3"></p>
@@ -525,7 +550,7 @@ export default function HeroSectionCopy() {
                 <div className="col-start-1 col-end-7 mb-5">
                   <img
                     className="object-cover object-bottom w-full h-auto"
-                    src="../../assets/images/mobile/home/pic2.png"
+                    src="../assets/images/home/02.jpg"
                     alt="pic2"
                   />
                 </div>
@@ -602,7 +627,7 @@ export default function HeroSectionCopy() {
                       <div className="col-start-1 col-end-7">
                         <img
                           className="object-cover object-bottom w-full h-auto"
-                          src="../../assets/images/mobile/home/pic3.png"
+                          src="../assets/images/home/03.jpg"
                           alt="Infinite"
                         />
                       </div>
@@ -671,7 +696,7 @@ export default function HeroSectionCopy() {
                     <div className="col-start-1 col-end-7">
                       <img
                         className="object-cover object-bottom w-full h-auto"
-                        src="../../assets/images/mobile/home/pic4.png"
+                        src="../assets/images/home/04.jpg"
                         alt="Infinite"
                       />
                     </div>
@@ -769,7 +794,7 @@ export default function HeroSectionCopy() {
                       <div className="col-start-1 col-end-7 my-5">
                         <img
                           className="object-cover object-bottom w-full h-auto"
-                          src="../../assets/images/mobile/home/pic5.png"
+                          src="../assets/images/home/05.jpg"
                           alt="Infinite"
                         />
                       </div>
@@ -803,7 +828,7 @@ export default function HeroSectionCopy() {
                       </div>
                       <div className="col-start-1 col-end-7 mb-16">
                         <h5 className="text-sm mt-2">
-                          สร้างคอนเทนท์บนโซเชียล รับเขียนคอนเทนท์
+                        เขียนโปรแกรมและพัฒนาระบบอย่างมืออาชีพ
                         </h5>
                         <button className="in-button mt-2">
                           <img

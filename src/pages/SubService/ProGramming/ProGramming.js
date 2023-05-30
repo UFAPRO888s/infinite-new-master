@@ -43,12 +43,12 @@ export default function ProGramming() {
     <>
       <main>
         <Helmet>
-          <title>Expert Programming - Infinite Digital Cunsultants</title>
+          <title>Expert Programming - Infinite Digital Consultants</title>
           <meta
             name="description"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            content="รับเขียนโปรแกรมและพัฒนาระบบตามความต้องการของท่านอย่างมืออาชีพรองรับทุกการใช้งานกับทุกธุรกิจ เราพัฒนาโปรแกรมและรับทำเว็บไซต์ทุกรูปแบบและหลากหลายเพื่อให้เหมาะกับการใช้งานของท่าน ด้วยประสบการณ์ที่เรามีมามากกว่า 10 ปี"
           />
-          <link rel="canonical" href="http://mysite.com/example" />
+          <link rel="canonical" href="https://theinfinitedigital.com/services/code" />
         </Helmet>
       </main>
       <main className="color-mainpro">
