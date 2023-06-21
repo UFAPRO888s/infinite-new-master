@@ -553,8 +553,8 @@ export default function ContentSectionCopy() {
                       </p>{" "}
                       <span className="box-decoration-clone text-in-purple-3 font-bold">
                         <p className="md:text-4xl lg:text-5xl 2xl:text-5xl 3xl:text-6xl">
-                          Creative Online <br />
-                          and Printing
+                          Advertising Online <br />
+                          and Content
                         </p>{" "}
                       </span>{" "}
                     </blockquote>{" "}
@@ -570,9 +570,10 @@ export default function ContentSectionCopy() {
                       </a>{" "}
                     </div>{" "}
                     <blockquote className="md:mx-10 lg:mx-10 2xl:mx-5 md:py-3 lg:py-3 2xl:py-4 md:w-56 lg:w-80 2xl:w-96 3xl:w-128">
-                    <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl  font-light mb-2 lg:mb-2">
-                      เราให้บริการการสร้างคอนเทนท์ต่างๆ เพื่อให้เว็บไชต์ของคุณสมบูรณ์แบบโดยถูกต้องตามหลัก
-                    </p>{" "}
+                      <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl  font-light mb-2 lg:mb-2">
+                        เราให้บริการการสร้างคอนเทนท์ต่างๆ
+                        เพื่อให้เว็บไชต์ของคุณสมบูรณ์แบบโดยถูกต้องตามหลัก
+                      </p>{" "}
                     </blockquote>{" "}
                   </div>
                   <div className="col-start-6 col-span-12">
@@ -643,7 +644,8 @@ export default function ContentSectionCopy() {
                       </a>{" "}
                     </div>{" "}
                     <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl  font-light mb-2 lg:mb-2">
-                      ทีมงานเขียนโปรแกรมและพัฒนาระบบ ตามความต้องการของลูกค้าอย่างมืออาชีพรอบรับทุกการใช้งานกับธุรกิจ
+                      ทีมงานเขียนโปรแกรมและพัฒนาระบบ
+                      ตามความต้องการของลูกค้าอย่างมืออาชีพรอบรับทุกการใช้งานกับธุรกิจ
                     </p>{" "}
                   </div>
                 </div>

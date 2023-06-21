@@ -63,7 +63,12 @@ export default function SlideWork() {
               <img
                 src={ImagesWork.path}
                 alt={ImagesWork.text}
-                className="h-full w-auto container-slider object-cover"
+                className="h-full w-auto container-slider object-cover hidden md:block"
+              />
+              <img
+                src={ImagesWork.path}
+                alt={ImagesWork.text}
+                className="h-auto w-screen container-slider object-contain object-center block md:hidden"
               />
             </div>
           </SwiperSlide>

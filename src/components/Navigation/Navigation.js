@@ -62,7 +62,7 @@ const navService = [
     to: "/services/code",
   },
   {
-    name: "Creative Online and Printing",
+    name: "Advertising Online & Content",
     id: "sub04",
     to: "/services/digital",
   },

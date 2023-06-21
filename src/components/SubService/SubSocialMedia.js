@@ -37,9 +37,9 @@ export default function SubSocialMedia() {
                   <div className="col-span-6 mx-16 text-left font-bold">
                     <div className="grid justify-items-start w-full">
                       <h2 className="text-7xl 3xl:text-8xl mt-5 text-in-purple-1 font-R-FLEX">
-                        Creative online
+                        Advertising Online
                         <br />
-                        and printing
+                        and Content
                       </h2>
                       <h3 className="text-3xl 3xl:text-4xl font-normal mt-5 text-infinite2-3 leading-8 3xl:leading-10">
                         เอเจนซี่การตลาด

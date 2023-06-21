@@ -321,7 +321,7 @@ export default function HeroSectionCopy() {
                       </blockquote>
                       <blockquote className="pb-10">
                         <h1 className=" text-center text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl font-bold 2xl:leading-10 3xl:leading-normal">
-                          " We,ra a small team of creatives committed to design
+                          " We’re a small team of creatives committed to design
                           with a purpose "
                         </h1>
                       </blockquote>
