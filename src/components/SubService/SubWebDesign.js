@@ -255,16 +255,24 @@ export default function SubWebDesign() {
           <div className="relative">
             <div className="h-full w-full">
               <div className="grid grid-cols-12 relative">
+                <div className="col-span-12 md:col-span-6 mb-2 mx-10 md:mx-0 text-left font-bold block md:hidden">
+                  <div className="grid justify-items-start w-full">
+                    <img
+                      className="object-contain w-screen h-auto"
+                      src="../../assets/images/service/WebDesign/pic-illustration-01.png"
+                      alt="infinite-pic-illustration-01"
+                    />
+                  </div>
+                </div>
                 <div className="col-span-12 md:col-span-6 mx-10 md:mx-20 text-left">
-                  
                   <blockquote className="md:my-20">
-                    <h3 className="text-4xl 3xl:text-5xl mt-2 md:mt-10 font-semibold text-in-purple-1">
+                    <h3 className="text-2xl md:text-4xl 3xl:text-5xl mt-5 md:mt-10 font-semibold text-in-purple-1">
                       ออกแบบ UX UI
                     </h3>
-                    <p className="text-xl md:text-3xl 3xl:text-4xl font-light mt-2 leading-normal font-Prompt text-in-purple-1">
+                    <p className="text-xl md:text-3xl 3xl:text-4xl font-light mt-0 md:mt-2 leading-normal font-Prompt text-in-purple-1">
                       เราคือผู้เชี่ยวชาญด้านการออกแบบ
                     </p>
-                    <p className="text-xl md:text-3xl 3xl:text-4xl font-light mt-2 leading-normal font-Prompt text-in-purple-1 ">
+                    <p className="text-xl md:text-3xl 3xl:text-4xl font-light mt-0 md:mt-2 leading-normal font-Prompt text-in-purple-1 ">
                       UX & UI สำหรับเว็บไซต์และแอปมือถือ
                     </p>
                   </blockquote>
@@ -280,15 +288,15 @@ export default function SubWebDesign() {
                       </ul>
                     </div>
                   </blockquote>
-                  <div className="grid justify-items-start w-full mt-5 md:mt-10">
+                  <div className="grid justify-items-start w-full mt-5 md:mt-10 ">
                     <img
-                      className="object-contain object-center md:object-none md:object-center w-auto h-24"
+                      className="object-contain object-center md:object-none md:object-center w-auto h-24 "
                       src="../../assets/images/service/WebDesign/pic-icon-01.png"
                       alt="infinite-pic-icon-01"
                     />
                   </div>
                 </div>
-                <div className="col-span-12 md:col-span-6 mx-10 md:mx-0 text-left font-bold">
+                <div className="col-span-12 md:col-span-6 mx-10 md:mx-0 text-left font-bold hidden md:block">
                   <div className="grid justify-items-start w-full">
                     <img
                       className="object-contain w-screen h-auto"
@@ -298,7 +306,7 @@ export default function SubWebDesign() {
                   </div>
                 </div>
               </div>
-              <div className="grid grid-cols-12 relative mt-40">
+              <div className="grid grid-cols-12 relative mt-10">
                 <div className="col-span-12 md:col-span-6 mx-10 md:mx-0 text-left font-bold">
                   <div className="grid justify-items-start w-full">
                     <img
@@ -308,11 +316,11 @@ export default function SubWebDesign() {
                     />
                   </div>
                 </div>
-                <div className="col-span-6 mx-5 text-left">
-                  <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold text-in-purple-1">
+                <div className="col-span-12 md:col-span-6 mx-10 md:mx-5 text-left">
+                  <h3 className="text-2xl md:text-4xl 3xl:text-5xl mt-10 font-semibold text-in-purple-1">
                     ออกแบบเว็บไซต์อย่างไรให้เหมาะกับธุรกิจของคุณ ?
                   </h3>
-                  <p className="text-xl 3xl:text-2xl font-normal mt-8 leading-8 3xl:leading-10">
+                  <p className="text-base md:text-xl 3xl:text-2xl font-normal mt-2 md:mt-8 leading-8 3xl:leading-10">
                     รูปแบบการทำเว็บไซต์หรือออกแบบเว็บไซต์นั้น
                     จะขึ้นอยู่กับเป้าหมายของคุณเป็นหลัก
                     ถ้าหากคุณต้องการให้ลูกค้าสามารถเข้ามาเลือกซื้อสินค้า
@@ -325,11 +333,11 @@ export default function SubWebDesign() {
                     แน่นอนว่าลูกค้าของคุณจะได้รับประสบการณ์ที่ดีจากการใช้บริการ
                     ส่งผลให้ภาพลักษณ์ของแบรนด์ดีขึ้นตามด้วยเช่นกัน
                   </p>
-                  <div className="grid justify-items-start w-full my-10">
+                  <div className="grid justify-items-start w-32 my-5 md:w-full md:my-10">
                     <a href="/contact">
                       <button className="in-button">
                         <img
-                          className="object-none object-center"
+                          className="object-contain object-center md:object-none md:object-center"
                           src="../../assets/images/service/WebDesign/ปุ่ม-ปรึกษาเราตอนนี้.png"
                           alt="ปุ่ม6"
                         />
@@ -341,29 +349,29 @@ export default function SubWebDesign() {
             </div>
           </div>
         </div>
-        <div className="container mx-auto mb-24 ">
-          <div className="grid grid-cols-1 my-10 px-10">
+        <div className="container mx-auto mb-16 md:mb-24">
+          <div className="grid grid-cols-1 my-5 md:my-10 px-10">
             <blockquote>
-              <h3 className="text-center text-5xl 3xl:text-7xl mt-10 font-semibold text-in-purple-1">
+              <h3 className="text-center text-4xl md:text-5xl 3xl:text-7xl mt-5 md:mt-10 font-semibold text-in-purple-1">
                 WEBSITE
               </h3>
             </blockquote>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-3 justify-items-center place-items-center gap-1">
-            <div className="rounded-xl shadow-lg ">
-              <div class="flex flex-col mx-auto space-y-4 font-mono text-white text-sm font-bold leading-6 max-w-md">
+          <div class="grid grid-cols-1 md:grid-cols-3 justify-items-center place-items-center gap-1 ">
+            <div className="rounded-xl shadow-lg mt-2 md:mt-0">
+              <div class="flex flex-col mx-auto space-y-4 font-mono text-white text-sm font-bold leading-6 md:max-w-md ">
                 <div>
-                  <blockquote className="bg-infinite2-2 p-5 rounded-t-xl ">
-                    <h3 className="text-center text-4xl pb-2 font-semibold text-white">
+                  <blockquote className="bg-infinite2-2 p-2 md:p-5 rounded-t-xl ">
+                    <h3 className="text-center text-3xl md:text-4xl pb-0 md:pb-2 font-semibold text-white">
                       Salepage
                     </h3>
                   </blockquote>
-                  <blockquote className="p-5 h-[420px] w-[400px] ">
+                  <blockquote className="p-5 h-auto w-[300px] md:h-[420px] md:w-[400px] lg:h-[420px] lg:w-[400px]">
                     <ul className="list-disc px-5">
                       {textSalepage.map((Salepage) => (
                         <li
                           key={Salepage.id}
-                          className="text-lg font-semibold pb-1 text-infinite3"
+                          className=" text-base md:text-lg font-semibold pb-1 text-infinite3"
                         >
                           {Salepage.text}
                         </li>
@@ -372,28 +380,28 @@ export default function SubWebDesign() {
                   </blockquote>
                 </div>
                 <div>
-                  <blockquote className="bg-infinite2-4 p-5 rounded-b-xl ">
-                    <h5 className="text-center text-3xl pb-2 font-semibold text-infinite3">
-                      เริ่มต้น 9,990 บาท
+                  <blockquote className="bg-infinite2-4 p-2 md:p-5 rounded-b-xl ">
+                    <h5 className="text-center text-xl md:text-3xl pb-0 md:pb-2 font-bold md:font-semibold text-infinite3">
+                      เริ่มต้น <span className="font-Prompt">6,990</span> บาท
                     </h5>
                   </blockquote>
                 </div>
               </div>
             </div>
-            <div className="rounded-xl shadow-xl ">
+            <div className="rounded-xl shadow-lg md:shadow-xl mt-10 md:mt-0">
               <div class="flex flex-col mx-auto space-y-4 font-mono text-white text-sm font-bold leading-6 max-w-lg">
                 <div>
-                  <blockquote className="bg-infinite2-2 p-5 rounded-t-xl ">
-                    <h3 className="text-center text-5xl pb-2 font-semibold text-white">
+                  <blockquote className="bg-infinite2-2 p-2 md:p-5 rounded-t-xl">
+                    <h3 className="text-center text-3xl md:text-5xl pb-0 md:pb-2 font-semibold text-white">
                       Business
                     </h3>
                   </blockquote>
-                  <blockquote className="p-5">
+                  <blockquote className="p-5 h-auto w-[300px] md:h-[550px] md:w-[500px]">
                     <ul className="list-disc px-10">
                       {textBusiness.map((Business) => (
                         <li
                           key={Business.id}
-                          className="text-xl font-semibold pb-1 text-infinite3"
+                          className="text-base md:text-xl font-semibold pb-1 text-infinite3"
                         >
                           {Business.text}
                         </li>
@@ -402,28 +410,28 @@ export default function SubWebDesign() {
                   </blockquote>
                 </div>
                 <div>
-                  <blockquote className="bg-infinite2-4 p-5 rounded-b-xl ">
-                    <h5 className="text-center text-3xl pb-2 font-semibold text-infinite3">
-                      เริ่มต้น 9,990 บาท
+                  <blockquote className="bg-infinite2-4 p-2 md:p-5 rounded-b-xl ">
+                    <h5 className="text-center text-xl md:text-4xl pb-0 md:pb-2 font-bold md:font-semibold text-infinite3">
+                      เริ่มต้น <span className="font-Prompt">9,990</span> บาท
                     </h5>
                   </blockquote>
                 </div>
               </div>
             </div>
-            <div className="rounded-xl shadow-lg">
+            <div className="rounded-xl shadow-lg mt-10 md:mt-0">
               <div class="flex flex-col mx-auto space-y-4 font-mono text-white text-sm font-bold leading-6 ">
-                <div >
+                <div>
                   <blockquote className="bg-infinite2-2 p-5 rounded-t-xl">
                     <h3 className="text-center text-4xl pb-2 font-semibold text-white">
                       E-commerce
                     </h3>
                   </blockquote>
-                  <blockquote className="p-5 h-[420px] w-[400px]">
+                  <blockquote className="p-5 h-auto w-[300px] md:h-[420px] md:w-[400px] lg:h-[420px] lg:w-[400px]">
                     <ul className="list-disc px-5">
                       {textEcommerce.map((Ecommerce) => (
                         <li
                           key={Ecommerce.id}
-                          className="text-lg font-semibold pb-1 text-infinite3"
+                          className="text-base md:text-lg font-semibold pb-1 text-infinite3"
                         >
                           {Ecommerce.text}
                         </li>
@@ -433,8 +441,8 @@ export default function SubWebDesign() {
                 </div>
                 <div>
                   <blockquote className="bg-infinite2-4 p-5 rounded-b-xl ">
-                    <h5 className="text-center text-3xl pb-2 font-semibold text-infinite3">
-                      เริ่มต้น 9,990 บาท
+                    <h5 className="text-center text-xl md:text-3xl pb-0 md:pb-1 font-bold md:font-semibold text-infinite3">
+                      เริ่มต้น <span className="font-Prompt">14,990</span> บาท
                     </h5>
                   </blockquote>
                 </div>
@@ -446,17 +454,17 @@ export default function SubWebDesign() {
           <div className="columns-1 px-4">
             <div className="grid grid-cols-12 my-5 justify-items-center">
               <div className="col-span-12">
-                <blockquote className="mr-10 my-10 text-center">
-                  <h2 className="2xl:text-3xl 3xl:text-4xl font-semibold leading-normal text-in-purple-3">
+                <blockquote className="md:mr-10 md:my-24 text-center">
+                  <h2 className="text-xl md:text-3xl xl:text-3xl 3xl:text-4xl font-semibold leading-normal text-in-purple-3">
                     กระบวนการออกแบบเว็บไซต์
                   </h2>
-                  <p className="2xl:text-xl 3xl:text-2xl font-normal leading-normal  text-in-purple-3">
+                  <p className="text-base md:text-xl 2xl:text-xl 3xl:text-2xl font-normal leading-normal  text-in-purple-3">
                     Website Design Process
                   </p>
                   <div className="grid grid-cols-12 gap-0">
-                    <div className="col-span-6">
+                    <div className="col-span-12 md:col-span-6">
                       <div className="flex flex-row items-center">
-                        <div className="m-10">
+                        <div className="m-5 md:m-10">
                           <img
                             src="../assets/images/home/icon-web-design1.png"
                             className="object-cover w-20 h-20"
@@ -464,14 +472,14 @@ export default function SubWebDesign() {
                           />
                         </div>
                         <div>
-                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
+                          <p className="text-left text-sm md:text-xl 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                             เก็บข้อมูลครบทุกรายละเอียด <br />
                             เพื่อนำมาวิเคราะห์ ก่อนออกแบบเว็บไซต์
                           </p>
                         </div>
                       </div>
                       <div className="flex flex-row items-center">
-                        <div className="m-10">
+                        <div className="m-5 md:m-10">
                           <img
                             src="../assets/images/home/icon-web-design2.png"
                             className="object-cover w-20 h-20"
@@ -479,16 +487,16 @@ export default function SubWebDesign() {
                           />
                         </div>
                         <div>
-                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
+                          <p className="text-left text-sm md:text-xl 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                             เก็บข้อมูลครบทุกรายละเอียด <br />
                             เพื่อนำมาวิเคราะห์ ก่อนออกแบบเว็บไซต์
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div className="col-span-6">
+                    <div className="col-span-12 md:col-span-6">
                       <div className="flex flex-row items-center">
-                        <div className="m-10">
+                        <div className="m-5 md:m-10">
                           <img
                             src="../assets/images/home/icon-web-design3.png"
                             className="object-cover w-20 h-20"
@@ -496,39 +504,39 @@ export default function SubWebDesign() {
                           />
                         </div>
                         <div>
-                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
+                          <p className="text-left text-sm md:text-xl 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                             เก็บข้อมูลครบทุกรายละเอียด <br />
                             เพื่อนำมาวิเคราะห์ ก่อนออกแบบเว็บไซต์
                           </p>
                         </div>
                       </div>
                       <div className="flex flex-row items-center">
-                        <div className="m-10">
+                        <div className="m-5 md:m-10">
                           <img
                             src="../assets/images/home/icon-web-design4.png"
                             className="object-cover w-20 h-20"
                           />
                         </div>
                         <div>
-                          <p className="text-left 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
+                          <p className="text-left text-sm md:text-xl 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                             เก็บข้อมูลครบทุกรายละเอียด <br />
                             เพื่อนำมาวิเคราะห์ ก่อนออกแบบเว็บไซต์
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div className="col-start-3 col-span-8 mt-5">
-                      <p className="text-center 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
+                    <div className="col-start-1 col-span-12 md:col-start-3 md:col-span-8 md:mt-5">
+                      <p className="text-center text-sm md:text-xl 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
                         เรามีทีมโปรแกรมเมอร์และทีมพัฒนาที่พร้อมรับช่วงต่อ <br />
                         เพื่อนำแบบเว็บไซต์ที่สวยงามให้เป็นเว็บไซต์ที่ใช้งานได้จริง
                       </p>
-                      <div className="inline-block mt-5">
-                        <a href="contact">
+                      <div className="grid mx-auto justify-items-center w-28 my-5 md:w-full md:my-10">
+                        <a href="/contact">
                           <button className="in-button">
                             <img
-                              className="object-scale-down w-40"
+                              className="object-contain object-center md:object-none md:object-center"
                               src="../assets/images/home/ปุ่ม-contact-us.png"
-                              alt="ปุ่ม1"
+                              alt="ปุ่ม6 contact-us"
                             />
                           </button>
                         </a>
@@ -541,22 +549,22 @@ export default function SubWebDesign() {
           </div>
         </div>
         <div className="container mx-auto mt-18">
-          <div className="relative mb-28">
+          <div className="relative mb-10 md:mb-28">
             <div className="h-full w-full">
               <div className="grid grid-cols-12 relative">
                 <div className="col-span-12 bg-white">
-                  <div className="p-20">
+                  <div className="p-5 md:p-20">
                     <SlideWorkWA />
                   </div>
                 </div>
               </div>
-              <div className="grid grid-cols-12 relative">
-                <div className="col-span-full mx-20 text-center font-bold">
-                  <div className="grid justify-items-center w-full my-10">
+              <div className="grid grid-cols-12 justify-items-center md:relative">
+                <div className="col-span-12 mx-20 text-center font-bold">
+                  <div className="grid justify-items-center w-32 my-5 md:w-full md:my-10">
                     <button className="in-button">
                       <img
-                        className="object-none object-center"
-                        src="../../assets/images/service/Seo/ปุ่ม-ผลงานของเรา.png"
+                        className="object-contain object-center md:object-none md:object-center"
+                        src="../../assets/images/service/WebDesign/ปุ่ม-ปรึกษาเราตอนนี้.png"
                         alt="ปุ่ม6"
                       />
                     </button>
