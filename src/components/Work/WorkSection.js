@@ -10,7 +10,7 @@ const HWorkSlide = [
   {
     id: 0,
     com: <SlideWorkWA />,
-    text: "Website Application",
+    text: "Website Design",
     link: "/services/design",
   },
   {

@@ -552,7 +552,7 @@ export default function ContentSectionCopy() {
                         สร้างคอนเทนท์บนโซเชียล
                       </p>{" "}
                       <span className="box-decoration-clone text-in-purple-3 font-bold">
-                        <p className="md:text-4xl lg:text-5xl 2xl:text-5xl 3xl:text-6xl">
+                        <p className="md:text-4xl lg:text-4xl 2xl:text-4xl 3xl:text-6xl">
                           Advertising Online <br />
                           and Content
                         </p>{" "}
@@ -628,7 +628,7 @@ export default function ContentSectionCopy() {
                       รับเขียนโปรแกรม และระบบทุกประเภท
                     </p>{" "}
                     <span className="box-decoration-clone text-in-purple-3 font-bold">
-                      <p className="md:text-4xl lg:text-5xl 2xl:text-6xl 3xl:text-7xl">
+                      <p className="md:text-4xl lg:text-5xl 2xl:text-5xl 3xl:text-7xl">
                         Expert <br /> Programming{" "}
                       </p>{" "}
                     </span>{" "}

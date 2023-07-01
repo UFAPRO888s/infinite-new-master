@@ -352,7 +352,7 @@ export default function SubWebDesign() {
         <div className="container mx-auto mb-16 md:mb-24">
           <div className="grid grid-cols-1 my-5 md:my-10 px-10">
             <blockquote>
-              <h3 className="text-center text-4xl md:text-5xl 3xl:text-7xl mt-5 md:mt-10 font-semibold text-in-purple-1">
+              <h3 className="text-center text-4xl md:text-5xl 3xl:text-6xl mt-5 md:mt-10 font-semibold text-in-purple-1">
                 WEBSITE
               </h3>
             </blockquote>
@@ -361,8 +361,8 @@ export default function SubWebDesign() {
             <div className="rounded-xl shadow-lg mt-2 md:mt-0">
               <div class="flex flex-col mx-auto space-y-4 font-mono text-white text-sm font-bold leading-6 md:max-w-md ">
                 <div>
-                  <blockquote className="bg-infinite2-2 p-2 md:p-5 rounded-t-xl ">
-                    <h3 className="text-center text-3xl md:text-4xl pb-0 md:pb-2 font-semibold text-white">
+                  <blockquote className="bg-infinite2-2 p-3 rounded-t-xl ">
+                    <h3 className="text-center text-3xl md:text-3xl pb-0  font-semibold text-white">
                       Salepage
                     </h3>
                   </blockquote>
@@ -371,7 +371,7 @@ export default function SubWebDesign() {
                       {textSalepage.map((Salepage) => (
                         <li
                           key={Salepage.id}
-                          className=" text-base md:text-lg font-semibold pb-1 text-infinite3"
+                          className=" text-base md:text-base font-semibold pb-1 text-infinite3"
                         >
                           {Salepage.text}
                         </li>
@@ -380,8 +380,8 @@ export default function SubWebDesign() {
                   </blockquote>
                 </div>
                 <div>
-                  <blockquote className="bg-infinite2-4 p-2 md:p-5 rounded-b-xl ">
-                    <h5 className="text-center text-xl md:text-3xl pb-0 md:pb-2 font-bold md:font-semibold text-infinite3">
+                  <blockquote className="bg-infinite2-4 p-3 rounded-b-xl ">
+                    <h5 className="text-center text-xl md:text-2xl font-bold md:font-semibold text-infinite3">
                       เริ่มต้น <span className="font-Prompt">6,990</span> บาท
                     </h5>
                   </blockquote>
