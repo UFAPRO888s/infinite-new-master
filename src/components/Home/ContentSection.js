@@ -441,6 +441,20 @@ export default function ContentSectionCopy() {
                       <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl font-light mb-2 lg:mb-2">
                         เราสามารถเพิ่มจำนวนคนเข้าเว็บไซต์ของคุณด้วยกลยุทธ์ที่พิสูจน์มาแล้วว่าได้ผลจริง
                       </p>{" "}
+                      <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl font-light mb-2 lg:mb-2 mt-5">
+                        สนับสนุนการทำ SEO โดย บริษัท
+                        <a href="https://searchmonopoly.com/services/seo/">
+                          <strong>รับทำ SEO</strong>
+                        </a>
+                        <div class="grid grid-cols-6 grid-flow-col mt-2">
+                          <img
+                            alt="Logo Search Monopoly"
+                            src="http://searchmonopoly.com/wp-content/uploads/2016/09/57KBsearch_monopoly_2015-45x45.jpg"
+                            className="addsm"
+                          />{" "}
+                          <span className="col-span-5">Search Monopoly</span>
+                        </div>
+                      </p>{" "}
                     </blockquote>{" "}
                   </div>
                   <div className="col-start-6 col-span-12">

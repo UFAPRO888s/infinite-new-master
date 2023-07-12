@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 // import { Helmet } from "react-helmet";
 import HeroSection from "../../components/Home/HeroSection";
 import ContentSection from "../../components/Home/ContentSection";
@@ -10,7 +10,7 @@ import { SuperSEO } from "react-super-seo";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
-  let [isHomePage, setisHomePage] = useState(true)
+  let [isHomePage, setisHomePage] = useState(true);
 
   return (
     <>
@@ -29,7 +29,9 @@ export default function Home() {
         title="รับทำเว็บไซต์ รับเขียนโปรแกรม ทุกประเภทของธุรกิจ | รับทำ wordpress ออกแบบเว็บไซต์ รองรับ seo"
         description="บริษัท รับทำเว็บไชต์ ด้วยทีมงานดูโครงสร้างครอบคลุมถึง ux/ui และรองรับ seo สามารถออกแบบเว็บไซต์ ด้วย wordpress รวมถึงการ รับทำการตลาดออนไลน์ ทางด้านสื่อดิจิทัลทุกรูปแบบ รับทำ seo ติดหน้า 1 ของ Google"
         lang="th"
-        link rel="canonical" href="https://theinfinitedigital.com/contact"
+        link
+        rel="canonical"
+        href="https://theinfinitedigital.com/contact"
         openGraph={{
           ogImage: {
             ogImage:
@@ -52,7 +54,6 @@ export default function Home() {
 
       <main>
         <div className="max-w-full md:max-w-full mx-auto overflow-hidden">
-          
           <HeroSection />
           <ContentSection />
         </div>
