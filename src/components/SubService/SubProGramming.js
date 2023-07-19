@@ -8,9 +8,9 @@ gsap.registerPlugin(ScrollTrigger, CustomEase);
 export default function SubProGramming() {
   return (
     <>
-      <div className="hidden md:block">
+      <div className="block">
         <div className="container mx-auto">
-          <div className="bg-infinite1-100 h-screen">
+          <div className="bg-infinite1-100 h-[16rem] sm:h-72 md:h-screen">
             <div className="columns-1 mb-10">
               <div className="grid justify-items-center">
                 <img
@@ -32,12 +32,12 @@ export default function SubProGramming() {
             <div className="absolute top-10 right-0 w-full text-right">
               <div className="h-full w-full">
                 <div className="grid grid-cols-12 relative">
-                  <div className="col-span-6 mx-16 text-left font-bold">
+                  <div className="col-span-12 md:col-span-6 mx-10 md:mx-16 text-left font-bold">
                     <div className="grid justify-items-start w-full">
-                      <h2 className="text-7xl 3xl:text-8xl mt-5 text-in-purple-1 font-R-FLEX">
+                      <h2 className=" text-4xl md:text-7xl 3xl:text-8xl mt-0 md:mt-5 text-in-purple-1 font-R-FLEX">
                         Expert Programming
                       </h2>
-                      <h3 className="text-3xl 3xl:text-4xl font-normal mt-5 text-infinite2-3 leading-8 3xl:leading-10">
+                      <h3 className="text-xl md:text-3xl 3xl:text-4xl font-normal mt-5 text-infinite2-3 leading-8 3xl:leading-10">
                         รับเขียนโปรแกรม
                         <br />
                         พัฒนาระบบตาม
@@ -45,11 +45,11 @@ export default function SubProGramming() {
                         ความต้องการของลูกค้า
                       </h3>
                     </div>
-                    <div className="grid justify-items-start w-full my-10">
+                    <div className="grid justify-items-center md:justify-items-start w-28 md:w-full my-10">
                       <a href="/contact">
                         <button className="in-button">
                           <img
-                            className="object-none object-center"
+                            className=" object-contain md:object-none object-center"
                             src="../assets/images/home/section6/ปุ่ม6.png"
                             alt="ปุ่ม6"
                           />
@@ -57,8 +57,8 @@ export default function SubProGramming() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-span-6 mx-16 text-left leading-8 3xl:leading-10 whitespace-pre-wrap">
-                    <p className="text-xl 3xl:text-2xl font-normal mt-12 leading-8 3xl:leading-10  whitespace-pre-wrap">
+                  <div className=" col-span-12 md:col-span-6 mx-10 md:mx-16 text-center md:text-left leading-8 3xl:leading-10 whitespace-pre-wrap">
+                    <p className=" text-base md:text-xl 3xl:text-2xl font-normal mt-0 md:mt-12 leading-8 3xl:leading-10  whitespace-pre-wrap">
                       ทีมงานรับเขียนโปรแกรมและพัฒนาระบบตามความต้องการของท่านอย่างมืออาชีพรองรับทุกการใช้งานกับทุกธุรกิจ
                       เราพัฒนาโปรแกรมและรับทำเว็บไซต์ทุกรูปแบบและหลากหลายเพื่อให้เหมาะกับการใช้งานของท่าน
                       ด้วยประสบการณ์ที่เรามีมามากกว่า 10 ปี
@@ -73,12 +73,12 @@ export default function SubProGramming() {
             </div>
           </div>
         </div>
-        <div className="container mx-auto mt-10 3xl:mt-20">
+        <div className="container mx-auto mt-40 md:mt-72 3xl:mt-20">
           <div className="relative">
             <div className="h-full w-full">
               <div className="grid grid-cols-12 relative">
-                <div className="col-span-5 ml-4 text-left font-bold">
-                  <div className="grid justify-items-start w-4/5">
+                <div className="col-span-12 md:col-span-5 md:ml-4 text-center md:text-left font-bold">
+                  <div className="grid justify-items-center md:justify-items-start w-4/5  mx-auto">
                     <img
                       className="w-full h-auto"
                       src="../../assets/images/service/ProGramming/pic-illustration-01.png"
@@ -86,21 +86,21 @@ export default function SubProGramming() {
                     />
                   </div>
                 </div>
-                <div className="col-span-7 mr-4 ml-10 text-left">
-                  <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold text-in-purple-1">
+                <div className="col-span-12 md:col-span-7 mx-10 md:mr-4 md:ml-10 text-center md:text-left">
+                  <h3 className="text-xl md:text-4xl 3xl:text-5xl mt-10 font-semibold text-in-purple-1">
                     รับเขียนโปรแกรมมืออาชีพ
                   </h3>
-                  <p className="text-xl 3xl:text-2xl font-normal mt-12 leading-8 3xl:leading-10 whitespace-pre-wrap">
+                  <p className="text-base md:text-xl 3xl:text-2xl font-normal mt-5 md:mt-12 leading-8 3xl:leading-10 whitespace-pre-wrap">
                     ท่านจะไม่ผิดหวังกับโปรแกรมหรือระบบที่เราส่งมอบให้
                     เรามีทีมงานที่พัฒนาโปรแกรมได้หลายหลายรูปแบบ
                     ทั้งโปรแกรมขนาดเล็ก หรือ โปรแกรมขนาดใหญ่ ด้วยทีมงานมืออาชีพ
                     ด้วย .Net, Java, Php, Nodejs, React, Angular และ อื่นๆ
                   </p>
-                  <div className="grid justify-items-start w-full my-10">
+                  <div className="grid justify-items-center md:justify-items-start w-40 mx-auto md:w-full my-5 md:my-10">
                     <a href="/contact">
                       <button className="in-button">
                         <img
-                          className="object-none object-center"
+                          className="object-contain md:object-none object-center"
                           src="../../assets/images/service/ProGramming/ปุ่ม-ปรึกษาเราตอนนี้.png"
                           alt="ปุ่ม6"
                         />
@@ -115,7 +115,7 @@ export default function SubProGramming() {
                 </div>
               </div>
               <div className="grid grid-cols-12 relative mt-28">
-                <div className="col-span-6 mx-4 text-left">
+                <div className="col-span-12 md:col-span-6 mx-4 text-left">
                   <h3 className="text-4xl 3xl:text-5xl mt-10 font-semibold text-in-purple-1">
                     รับเขียนโปรแกรมเว็บแอพพลิเคชั่น
                   </h3>
@@ -125,7 +125,7 @@ export default function SubProGramming() {
                     Smartphone
                   </p>
                 </div>
-                <div className="col-span-6 mx-0 text-left font-bold">
+                <div className="col-span-12 md:col-span-6 mx-0 text-left font-bold">
                   <div className="grid justify-items-start w-4/5">
                     <img
                       className="w-full h-auto"

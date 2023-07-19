@@ -112,7 +112,7 @@ export default function ContactSection() {
           <div className="relative">
             <div>
               <div className="max-w-full mx-auto py-0 px-0 lg:flex lg:items-center lg:justify-end mt-0">
-                <p className="inline-block h-[110vh] md:h-screen w-full bg-white"></p>
+                <p className="inline-block xs:h-[155vh] sm:h-[110vh] md:h-screen w-full bg-white"></p>
               </div>
               <div className="max-w-full mx-auto py-0 px-0 lg:flex lg:items-center lg:justify-end mt-0">
                 <p className="inline-block md:h-96 w-full bg-white"></p>
@@ -249,7 +249,6 @@ export default function ContactSection() {
           </div>
         </div>
       </div>
-      <div className="block md:hidden"></div>
     </>
   );
 }
