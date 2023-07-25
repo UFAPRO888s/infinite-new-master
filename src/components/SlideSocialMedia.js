@@ -63,7 +63,7 @@ export default function SlideSocialMedia() {
               <img
                 src={ImagesWork.path}
                 alt={ImagesWork.text}
-                className="h-full w-auto container-sliderprinting object-cover"
+                className="h-auto md:h-full md:w-auto rounded-xl md:container-sliderprinting object-contain md:object-cover"
               />
             </div>
           </SwiperSlide>

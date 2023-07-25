@@ -17,7 +17,7 @@ const navigationMo = [
   {
     name: "Service",
     id: "menuServiceMo",
-    href: "/",
+    href: "/work",
     img: "../assets/images/mobile/home/ปุ่มทางลัดล่าง3.png",
     current: true,
   },
