@@ -17,13 +17,13 @@ const HWorkSlide = [
     id: 1,
     com: <SlideWorkAC />,
     text: "Advertising Online & Content",
-    link: "/services/design",
+    link: "/services/digital",
   },
   {
     id: 2,
     com: <SlideWorkGD />,
     text: "Graphic Design",
-    link: `/services/design`,
+    link: `/services/digital`,
   },
 ];
 
@@ -201,7 +201,7 @@ export default function WorkSection() {
                     เพื่อสร้างสรรค์ผลงานที่มีคุณภาพสำหรับลูกค้าของเรา
                   </p>
                   <div className="grid justify-items-center my-10">
-                    <a href="/services/design">
+                    <a href="/work">
                       <button className="in-button">
                         <img
                           className="object-cover object-center w-32 h-auto"

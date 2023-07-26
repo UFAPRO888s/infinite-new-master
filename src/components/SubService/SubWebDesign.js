@@ -561,6 +561,7 @@ export default function SubWebDesign() {
               <div className="grid grid-cols-12 justify-items-center md:relative">
                 <div className="col-span-12 mx-20 text-center font-bold">
                   <div className="grid justify-items-center w-32 my-5 md:w-full md:my-10">
+                  <a href="/contact">
                     <button className="in-button">
                       <img
                         className="object-contain object-center md:object-none md:object-center"
@@ -568,6 +569,7 @@ export default function SubWebDesign() {
                         alt="ปุ่ม6"
                       />
                     </button>
+                    </a>
                   </div>
                 </div>
               </div>

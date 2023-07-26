@@ -87,7 +87,7 @@ export default function AboutSection() {
                       และหลงใหลในสื่อดิจิทัล
                     </h2>
                     <div className="mt-10">
-                      <a href="/services/design">
+                      <a href="/work">
                         <button className="in-button">
                           <img
                             className="object-cover object-center w-38 h-auto"
@@ -227,7 +227,7 @@ export default function AboutSection() {
                     เพื่อสร้างสรรค์ผลงานที่มีคุณภาพสำหรับลูกค้าของเรา
                   </p>
                   <div className="grid justify-items-center my-10">
-                    <a href="/services/design">
+                    <a href="/work">
                       <button className="in-button">
                         <img
                           className="object-cover object-center w-32 h-auto"

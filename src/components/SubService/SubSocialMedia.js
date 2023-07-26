@@ -347,13 +347,15 @@ export default function SubSocialMedia() {
                       </h3>
                     </div>
                     <div className="grid justify-items-center md:justify-items-start w-28 md:w-full my-5 md:my-10">
-                      <button className="in-button">
-                        <img
-                          className="object-contain md:object-none object-center"
-                          src="../assets/images/home/section6/ปุ่ม6.png"
-                          alt="ปุ่ม6"
-                        />
-                      </button>
+                      <a href="/contact">
+                        <button className="in-button">
+                          <img
+                            className="object-contain md:object-none object-center"
+                            src="../assets/images/home/section6/ปุ่ม6.png"
+                            alt="ปุ่ม6"
+                          />
+                        </button>
+                      </a>
                     </div>
                   </div>
                   <div className="col-span-12 md:col-span-6 mx-10 md:ml-7 md:mr-16 text-left leading-8 3xl:leading-10 whitespace-pre-wrap">
@@ -847,7 +849,7 @@ export default function SubSocialMedia() {
               <div className="grid grid-cols-12 relative mt-5">
                 <div className="col-span-full mx-20 text-center font-bold">
                   <div className="grid justify-items-center md:justify-items-start w-28 md:w-full my-5 md:my-20">
-                    <a href="/services/digital">
+                    <a href="/work">
                       <button className="in-button">
                         <img
                           className="object-contain md:object-none object-center"
