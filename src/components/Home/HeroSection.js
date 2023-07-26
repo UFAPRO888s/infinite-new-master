@@ -316,7 +316,7 @@ export default function HeroSectionCopy() {
                         <p className="md:text-xs lg:text-sm xl:text-base 2xl:text-xl 3xl:text-3xl font-light text-left 2xl:leading-10 3xl:leading-[3rem]">
                           เราเป็นทีมออกแบบเว็บไซต์ที่ไม่เหมือนใคร
                           ซึ่งเหมาะกับเอกลักษณ์เฉพาะตัวของแบรนด์ของคุณอย่างแท้จริง
-                          เพื่อสร้างประสบการณ์ที่โดเด่น
+                          เพื่อสร้างประสบการณ์ที่โดดเด่น
                         </p>
                       </blockquote>
                       <blockquote className="pb-10">
@@ -441,12 +441,12 @@ export default function HeroSectionCopy() {
                   <div className="absolute top-0 left-0">
                     <blockquote className="m-10">
                       <h1 className="text-3xl font-bold leading-9 mb-5">
-                        รับทำเว็บไชต์ wordpress และ รับทำ seo
+                        รับทำเว็บไชต์ Wordpress และ รับทำ SEO
                         ออกแบบเว็บไชต์ให้รองรับระบบของ Google
                       </h1>
                       <p className="text-base mb-5">
                         อินฟินิท ดิจิทัล คอนซัลแตนท์ รับทำเว็บไชต์ รับทำ
-                        wordpress รับปรึกษาดูแลด้านเว็บไซต์ให้รองรับด้าน SEO ของ
+                        Wordpress รับปรึกษาดูแลด้านเว็บไซต์ให้รองรับด้าน SEO ของ
                         google และ รับเขียนโปรแกรม ทุกประเภทธุรกิจ
                         รวมถึงสื่อดิจิทัลออนไลน์
                       </p>
@@ -454,7 +454,7 @@ export default function HeroSectionCopy() {
                         เราเป็นทีมออกแบบเว็บไซต์ที่สร้างสรรค์ผลงานคุณภาพไม่เหมือนใคร
                         และตอบโจทย์ตามความต้องการของลูกค้า
                         เพื่อสร้างเอกลักษณ์เฉพาะตัวของแบรนด์รวมถึงการสร้างประสบการณ์ที่ดีต่อผู้ใช้งานเว็บไซต์
-                        และรับทำ seo เพื่อรองรับเว็บไชต์ของคุณให้ติดหน้า 1 ของ
+                        และรับทำ SEO เพื่อรองรับเว็บไชต์ของคุณให้ติดหน้า 1 ของ
                         Google ทุก Platform
                       </p>
                     </blockquote>
@@ -583,7 +583,7 @@ export default function HeroSectionCopy() {
                 </div>
                 <div className="col-start-1 col-end-7">
                   <h2 className="text-sm mt-2">
-                    รับทำ seo บริษัทธุรกิจทุกประเภท
+                    รับทำ SEO บริษัทธุรกิจทุกประเภท
                   </h2>
                   <a href="/services/seo">
                     <button className="in-button mt-2">
@@ -661,7 +661,7 @@ export default function HeroSectionCopy() {
                       </div>
                       <div className="col-start-1 col-end-7">
                         <h3 className="text-sm mt-2">
-                          ออกแบบเว็บไซต์ พร้อมรองรับ ux/ui
+                          ออกแบบเว็บไซต์ พร้อมรองรับ UX/UI
                         </h3>
                         <a href="/services/design">
                           <button className="in-button mt-2">
