@@ -48,7 +48,7 @@ export default function ContactSection() {
                           <h2 className="hidden md:block 2xl:text-4xl 3xl:text-5xl md-2 md:mb-5 font-R-FLEX leading-normal md:leading-[3rem] 3xl:leading-[4rem] uppercase">
                             Infinity Digital <br /> Studio
                           </h2>
-                          <ul className="text-lg xl:text-xl 3xl:text-2xl font-normal list-none leading-normal md:leading-8 3xl:leading-9 text-left">
+                          <ul className=" text-base md:text-lg xl:text-xl 3xl:text-2xl font-normal list-none leading-normal md:leading-8 3xl:leading-9 text-center md:text-left">
                             <li>อาคารมาริโกลด์ ทาวเวอร์ สุวรรณภูมิ</li>
                             <li>
                               ชั้นที่ <span className="font-Prompt">5</span>{" "}
@@ -112,7 +112,7 @@ export default function ContactSection() {
           <div className="relative">
             <div>
               <div className="max-w-full mx-auto py-0 px-0 lg:flex lg:items-center lg:justify-end mt-0">
-                <p className="inline-block xs:h-[155vh] sm:h-[110vh] md:h-screen w-full bg-white"></p>
+                <p className="inline-block h-[130vh] sm:h-[110vh] md:h-screen w-full bg-white"></p>
               </div>
               <div className="max-w-full mx-auto py-0 px-0 lg:flex lg:items-center lg:justify-end mt-0">
                 <p className="inline-block md:h-96 w-full bg-white"></p>
@@ -168,10 +168,10 @@ export default function ContactSection() {
                             type="email"
                             placeholder="กรอก อีเมล"
                             required
-                            className="py-3 px-5 block  border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
-                          focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-gray-dark
-                        focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
+                            className="py-3 px-5 block md:w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
+                            focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
+                          invalid:text-gray-dark
+                          focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
                         <label className="block mb-5">
@@ -183,10 +183,10 @@ export default function ContactSection() {
                             placeholder="กรอก เบอร์โทรศัพท์"
                             maxLength={10}
                             required
-                            className="py-3 px-5 block border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
-                          focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-gray-dark
-                        focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
+                            className="py-3 px-5 block md:w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
+                            focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
+                          invalid:text-gray-dark
+                          focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
                         <label className="block mb-5">
@@ -197,10 +197,10 @@ export default function ContactSection() {
                             type="text"
                             placeholder="กรอก เว็บไซต์"
                             required
-                            className="py-3 px-5 block border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
-                          focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-gray-dark
-                        focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
+                            className="py-3 px-5 block md:w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
+                            focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
+                          invalid:text-gray-dark
+                          focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
                         <label className="block mb-5">
@@ -211,10 +211,10 @@ export default function ContactSection() {
                             type="text"
                             placeholder="กรอก งบประมาณในการลงทุน"
                             required
-                            className="py-3 px-5 block border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
-                          focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-gray-dark
-                        focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
+                            className="py-3 px-5 block md:w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
+                            focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
+                          invalid:text-gray-dark
+                          focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
                         <label className="block mb-5">
@@ -225,10 +225,10 @@ export default function ContactSection() {
                             type="text"
                             placeholder="กรอก ธุรกิจอยู่ในประเภทใด"
                             required
-                            className="py-3 px-5 block border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
-                          focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
-                        invalid:text-gray-dark
-                        focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
+                            className="py-3 px-5 block md:w-128 border-2 border-infinite2-2 shadow shadow-gray-dark rounded-2xl text-base md:text-lg mb-2 
+                            focus:outline-none focus:border-infinite2-2 focus:ring-1 focus:ring-infinite2-2
+                          invalid:text-gray-dark
+                          focus:invalid:ring-infinite2-2 focus:invalid:border-infinite2-2"
                           />
                         </label>
                       </div>

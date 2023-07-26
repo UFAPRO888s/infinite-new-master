@@ -722,9 +722,8 @@ export default function HeroSectionCopy() {
                     <div className="col-start-2 col-end-7 mx-5">
                       <span className="box-decoration-clone text-in-purple-3 font-bold">
                         <p className="text-2xl">
-                          Creative Online
-                          <br />
-                          and Printing
+                          Advertising Online <br />
+                          and Content
                         </p>
                       </span>
                     </div>
@@ -830,6 +829,7 @@ export default function HeroSectionCopy() {
                         <h5 className="text-sm mt-2">
                         เขียนโปรแกรมและพัฒนาระบบอย่างมืออาชีพ
                         </h5>
+                        <a href="/services/code">
                         <button className="in-button mt-2">
                           <img
                             className="object-scale-down h-full w-32"
@@ -837,6 +837,7 @@ export default function HeroSectionCopy() {
                             alt="ปุ่ม1"
                           />
                         </button>
+                        </a>
                       </div>
                       <div className="col-start-1 col-end-7">
                         <h2 className="text-center text-3xl font-bold">

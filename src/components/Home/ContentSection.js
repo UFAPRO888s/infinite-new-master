@@ -647,7 +647,7 @@ export default function ContentSectionCopy() {
                       </p>{" "}
                     </span>{" "}
                     <div className="grid justify-items-end w-full my-10 2xl:my-8 3xl:my-8">
-                      <a href="/services/digital">
+                      <a href="/services/code">
                         <button className="in-button">
                           <img
                             className="object-scale-down"
