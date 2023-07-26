@@ -46,7 +46,7 @@ export default function Seo() {
           <title>Web Design - Infinite Digital Consultants</title>
           <meta
             name="description"
-            content="Infinity Digital Agency ให้บริการออกแบบและพัฒนาเว็บไซต์ เว็บแอปพลิเคชันและแอปพลิเคชันมือถือครบวงจร โดยรูปแบบการทำเว็บไซต์หรือออกแบบเว็บไซต์นั้น จะขึ้นอยู่กับเป้าหมายและตรงกับความต้องการของคุณลูกค้า"
+            content="Infinity Digital Agency ให้บริการออกแบบ และพัฒนาเว็บไซต์ เว็บแอปพลิเคชัน และแอปพลิเคชันมือถือครบวงจร โดยรูปแบบการทำเว็บไซต์หรือออกแบบเว็บไซต์นั้น จะขึ้นอยู่กับเป้าหมาย และตรงกับความต้องการของคุณลูกค้า"
           />
           <link rel="canonical" href="https://theinfinitedigital.com/services/design" />
         </Helmet>

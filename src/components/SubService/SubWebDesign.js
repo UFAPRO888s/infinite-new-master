@@ -36,7 +36,7 @@ const textSalepage = [
   },
   {
     id: 7,
-    text: "มีระบบหลังบ้านให้ อัพเดทข้อมูลและแก้ไขเนื้อหาหน้าเว็บไซต์ได้",
+    text: "มีระบบหลังบ้านให้ อัพเดทข้อมูล และแก้ไขเนื้อหาหน้าเว็บไซต์ได้",
   },
   {
     id: 8,
@@ -225,24 +225,24 @@ export default function SubWebDesign() {
                   <div className="col-span-12 md:col-span-6 mx-10 md:mx-16 text-left leading-normal whitespace-pre-wrap">
                     <blockquote className="md:my-14">
                       <h3 className="text-xl md:text-2xl 3xl:text-3xl mt-2 md:mt-10 font-normal text-in-purple-2">
-                        Infinity Digital Agency ให้บริการออกแบบและพัฒนาเว็บไซต์
-                        เว็บแอปพลิเคชันและแอปพลิเคชันมือถือครบวงจร
+                        Infinity Digital Agency ให้บริการออกแบบ และพัฒนาเว็บไซต์
+                        เว็บแอปพลิเคชัน และแอปพลิเคชันมือถือครบวงจร
                       </h3>
                       <p className="text-base md:text-xl 3xl:text-2xl mt-1 font-normal leading-8 3xl:leading-10 whitespace-pre-wrap">
-                        เราเริ่มต้นทุกงานด้วยการวิจัยและการวางแผน การออกแบบ UX
+                        เราเริ่มต้นทุกงานด้วยการวิจัย และการวางแผน การออกแบบ UX
                         UI การออกแบบเว็บไซต์ การพัฒนาเว็บไซต์ การ deploy ขึ้น
                         server และบริการดูแลหลังการขาย
                       </p>
                     </blockquote>
                     <blockquote>
                       <p className="text-xl md:text-2xl 3xl:text-3xl mt-5 md:mt-10 font-normal text-in-purple-2">
-                        เราออกแบบเว็บไซต์และแอปพลิเคชันมือถือเฉพาะเจาะจงเพื่อธุรกิจของคุณเท่านั่น
+                        เราออกแบบเว็บไซต์ และแอปพลิเคชันมือถือเฉพาะเจาะจงเพื่อธุรกิจของคุณเท่านั้น
                       </p>
                       <p className="text-base md:text-xl 3xl:text-2xl mt-1 font-normal leading-8 3xl:leading-10 whitespace-pre-wrap">
                         เราไม่ใช้เทมเพลต
-                        หรือธีมในการออกแบบและพัฒนาเว็บไซต์และแอปพลิเคชันมือถือของคุณ
-                        เราออกแบบและพัฒนาเว็บไซต์และแอปพลิเคชันมือถือของคุณตั้งแต่เริ่มต้น!
-                        ดังนั้นคุณสามารถมั่นใจได้ว่าเว็บไซต์หรือแอปพลิเคชันมือถือของคุณจะไม่เหมือนใครและดีที่สุดสำหรับธุรกิจของคุณเท่านั้น
+                        หรือธีมในการออกแบบ และพัฒนาเว็บไซต์ และแอปพลิเคชันมือถือของคุณ
+                        เราออกแบบ และพัฒนาเว็บไซต์ และแอปพลิเคชันมือถือของคุณตั้งแต่เริ่มต้น!
+                        ดังนั้นคุณสามารถมั่นใจได้ว่าเว็บไซต์หรือแอปพลิเคชันมือถือของคุณจะไม่เหมือนใคร และดีที่สุดสำหรับธุรกิจของคุณเท่านั้น
                       </p>
                     </blockquote>
                   </div>
@@ -273,7 +273,7 @@ export default function SubWebDesign() {
                       เราคือผู้เชี่ยวชาญด้านการออกแบบ
                     </p>
                     <p className="text-xl md:text-3xl 3xl:text-4xl font-light mt-0 md:mt-2 leading-normal font-Prompt text-in-purple-1 ">
-                      UX & UI สำหรับเว็บไซต์และแอปมือถือ
+                      UX & UI สำหรับเว็บไซต์ และแอปมือถือ
                     </p>
                   </blockquote>
                   <div className="grid justify-items-center w-full my-5 md:my-10 border-1 md:border bg-gray-dark">
@@ -283,7 +283,7 @@ export default function SubWebDesign() {
                     <div className="text-base md:text-xl 3xl:text-2xl font-normal md:mt-12 leading-normal whitespace-pre-wrap ">
                       <ul className="list-inside list-disc">
                         <li>การออกแบบ UX & UI</li>
-                        <li>การออกแบบกราฟฟิก / ระบบสีและภาพ</li>
+                        <li>การออกแบบกราฟฟิก / ระบบสี และภาพ</li>
                         <li>การออกแบบ Transitions และ Animations</li>
                       </ul>
                     </div>
@@ -324,11 +324,11 @@ export default function SubWebDesign() {
                     รูปแบบการทำเว็บไซต์หรือออกแบบเว็บไซต์นั้น
                     จะขึ้นอยู่กับเป้าหมายของคุณเป็นหลัก
                     ถ้าหากคุณต้องการให้ลูกค้าสามารถเข้ามาเลือกซื้อสินค้า
-                    และจ่ายเงินที่เว็บไซต์ การทำเว็บไซต์แบบ E-commerce website
+                     และจ่ายเงินที่เว็บไซต์ การทำเว็บไซต์แบบ E-commerce website
                     จะตอบโจทย์ได้อย่างมากที่สุด ลองคิดถึงการซื้อของ
                     ถ้าหากคุณเลือกสินค้าได้แล้ว
                     แต่ไม่สามารถสั่งซื้อได้ในขณะนั้นเลย คุณอาจจะหมดความต้องการ
-                    และไม่อยากได้สินค้าชิ้นนั้นไปแล้ว
+                     และไม่อยากได้สินค้าชิ้นนั้นไปแล้ว
                     แต่ถ้าเราออกแบบเว็บไซต์ให้ตรงกับความต้องการ ใช้งานง่าย
                     แน่นอนว่าลูกค้าของคุณจะได้รับประสบการณ์ที่ดีจากการใช้บริการ
                     ส่งผลให้ภาพลักษณ์ของแบรนด์ดีขึ้นตามด้วยเช่นกัน
@@ -527,7 +527,7 @@ export default function SubWebDesign() {
                     </div>
                     <div className="col-start-1 col-span-12 md:col-start-3 md:col-span-8 md:mt-5">
                       <p className="text-center text-sm md:text-xl 2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
-                        เรามีทีมโปรแกรมเมอร์และทีมพัฒนาที่พร้อมรับช่วงต่อ <br />
+                        เรามีทีมโปรแกรมเมอร์ และทีมพัฒนาที่พร้อมรับช่วงต่อ <br />
                         เพื่อนำแบบเว็บไซต์ที่สวยงามให้เป็นเว็บไซต์ที่ใช้งานได้จริง
                       </p>
                       <div className="grid mx-auto justify-items-center w-28 my-5 md:w-full md:my-10">

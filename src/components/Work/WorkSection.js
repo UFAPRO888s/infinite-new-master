@@ -98,7 +98,7 @@ export default function WorkSection() {
                     <h2 className="text-3xl 3xl:text-4xl font-semibold leading-[2rem] 3xl:leading-[3rem]">
                       Infinite Digital
                       ถูกสร้างขึ้นมาจากกลุ่มคนที่มีความทะเยอทะยาน
-                      และหลงใหลในสื่อดิจิทัล
+                       และหลงใหลในสื่อดิจิทัล
                     </h2>
                     <div className="mt-10">
                       <a href="/services/design">
@@ -116,7 +116,7 @@ export default function WorkSection() {
                 <div className="col-span-7">
                   <blockquote className="mr-10 my-11">
                     <p className="2xl:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10">
-                      เป้าหมายสูงสุดของเราคือการผสมผสานศิลปะและเทคโนโลยีเข้าด้วยกัน
+                      เป้าหมายสูงสุดของเราคือการผสมผสานศิลปะ และเทคโนโลยีเข้าด้วยกัน
                       ภารกิจของเราในทุกๆ
                       วันคือการทำให้ทีมเรามีประสิทธิภาพมากขึ้น
                       เพื่อสร้างสรรค์ผลงานที่มีคุณภาพสำหรับลูกค้าของเรา
@@ -182,7 +182,7 @@ export default function WorkSection() {
                   </div>
                   <p className="text-2xl font-semibold mx-10 my-2 text-center">
                   Infinite Digital ถูกสร้างขึ้นมาจากกลุ่มคนที่มีความทะเยอทะยาน
-                และหลงใหลในสื่อดิจิทัล
+                 และหลงใหลในสื่อดิจิทัล
                   </p>
                   <div className="grid justify-items-end">
                     <img
@@ -196,7 +196,7 @@ export default function WorkSection() {
               <div className="col-span-12 my-5">
                 <blockquote>
                   <p className="text-base mb-5 text-center">
-                    เป้าหมายสูงสุดของเราคือการผสมผสานศิลปะและเทคโนโลยีเข้าด้วยกัน
+                    เป้าหมายสูงสุดของเราคือการผสมผสานศิลปะ และเทคโนโลยีเข้าด้วยกัน
                     ภารกิจของเราในทุกๆ วันคือการทำให้ทีมเรามีประสิทธิภาพมากขึ้น
                     เพื่อสร้างสรรค์ผลงานที่มีคุณภาพสำหรับลูกค้าของเรา
                   </p>

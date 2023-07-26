@@ -259,7 +259,7 @@ export default function HeroSectionCopy() {
                         รับปรึกษาดูแลด้านเว็บไซต์
                       </p>
                       <p className="text-center uppercase font-extralight md:text-sm lg:text-xl xl:text-2xl 3xl:text-3xl mt-0 lg:mt-2 xl:mt-2 2xl:mt-3 3xl:mt-2 ">
-                        และระบบโปรแกรม รวมถึงสื่อดิจิทัลออนไลน์
+                         และระบบโปรแกรม รวมถึงสื่อดิจิทัลออนไลน์
                       </p>
                       <p className="text-center uppercase font-extralight md:text-sm lg:text-xl xl:text-2xl 3xl:text-3xl mt-0 lg:mt-2 xl:mt-2 2xl:mt-3 3xl:mt-2 ">
                         ครบทุกด้านในที่เดียว
@@ -327,7 +327,7 @@ export default function HeroSectionCopy() {
                       </blockquote>
                       <blockquote className="px-16">
                         <p className="md:text-xs lg:text-sm xl:text-base 2xl:text-xl 3xl:text-2xl font-light 2xl:leading-10 3xl:leading-normal text-justify">
-                          เพิ่มมูลค่าให้แก่แบรนด์ของคุณให้เป็นที่น่าจดจำและสร้างโอกาสในการขายมากขึ้นด้วยเว็บไซต์ที่ทำหน้าที่และตอบสนองได้อย่างสมบูรณ์
+                          เพิ่มมูลค่าให้แก่แบรนด์ของคุณให้เป็นที่น่าจดจำ และสร้างโอกาสในการขายมากขึ้นด้วยเว็บไซต์ที่ทำหน้าที่ และตอบสนองได้อย่างสมบูรณ์
                           ซึ่งออกแบบมาสำหรับผู้ใช้ของคุณ
                         </p>
                       </blockquote>
@@ -378,7 +378,7 @@ export default function HeroSectionCopy() {
                             Consultants
                           </p>
                           <p className="text-sm my-2">
-                            รับปรึกษาดูแลด้านเว็บไซต์และระบบโปรแกรม รวมถึงสื่อดิจิทัลออนไลน์ครบทุกด้านในที่เดียว
+                            รับปรึกษาดูแลด้านเว็บไซต์ และระบบโปรแกรม รวมถึงสื่อดิจิทัลออนไลน์ครบทุกด้านในที่เดียว
                           </p>
                           <p className="font-bold text-xl my-2">
                             “จ้างครั้งเดียวจบ ได้ครบทั้งทีม”
@@ -452,9 +452,9 @@ export default function HeroSectionCopy() {
                       </p>
                       <p className="text-base">
                         เราเป็นทีมออกแบบเว็บไซต์ที่สร้างสรรค์ผลงานคุณภาพไม่เหมือนใคร
-                        และตอบโจทย์ตามความต้องการของลูกค้า
+                         และตอบโจทย์ตามความต้องการของลูกค้า
                         เพื่อสร้างเอกลักษณ์เฉพาะตัวของแบรนด์รวมถึงการสร้างประสบการณ์ที่ดีต่อผู้ใช้งานเว็บไซต์
-                        และรับทำ SEO เพื่อรองรับเว็บไชต์ของคุณให้ติดหน้า 1 ของ
+                         และรับทำ SEO เพื่อรองรับเว็บไชต์ของคุณให้ติดหน้า 1 ของ
                         Google ทุก Platform
                       </p>
                     </blockquote>
@@ -827,7 +827,7 @@ export default function HeroSectionCopy() {
                       </div>
                       <div className="col-start-1 col-end-7 mb-16">
                         <h5 className="text-sm mt-2">
-                        เขียนโปรแกรมและพัฒนาระบบอย่างมืออาชีพ
+                        เขียนโปรแกรม และพัฒนาระบบอย่างมืออาชีพ
                         </h5>
                         <a href="/services/code">
                         <button className="in-button mt-2">

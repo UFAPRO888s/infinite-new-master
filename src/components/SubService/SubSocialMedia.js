@@ -144,7 +144,7 @@ export default function SubSocialMedia() {
       {
         id: 9,
         detailEN: "Boost page facebook",
-        detailTH: "เพิ่มการเข้าถึงเพจและยอดไลค์ให้ฟรี 1 ครั้ง",
+        detailTH: "เพิ่มการเข้าถึงเพจ และยอดไลค์ให้ฟรี 1 ครั้ง",
         StarterPackageImg: "",
         StarterPackageText: "No / ไม่มี",
         StandardPackageImg: "",
@@ -343,7 +343,7 @@ export default function SubSocialMedia() {
                       <h3 className="text-xl md:text-3xl 3xl:text-4xl font-normal mt-5 text-infinite2-3 leading-8 3xl:leading-10">
                         เอเจนซี่การตลาด
                         <br />
-                        และโฆษณาออนไลน์
+                         และโฆษณาออนไลน์
                       </h3>
                     </div>
                     <div className="grid justify-items-center md:justify-items-start w-28 md:w-full my-5 md:my-10">
@@ -360,29 +360,29 @@ export default function SubSocialMedia() {
                   </div>
                   <div className="col-span-12 md:col-span-6 mx-10 md:ml-7 md:mr-16 text-left leading-8 3xl:leading-10 whitespace-pre-wrap">
                     <h3 className="text-xl md:text-3xl 3xl:text-4xl mt-5 md:mt-10 font-normal text-in-purple-2">
-                      ให้บริการด้านการตลาดและโฆษณาดิจิตอลแบบครบวงจร ที่
+                      ให้บริการด้านการตลาด และโฆษณาดิจิตอลแบบครบวงจร ที่
                       <span className="text-infinite3 uppercase ">
                         Infinity Digital Agency
                       </span>
                     </h3>
                     <p className="text-base md:text-xl 3xl:text-2xl font-normal mt-2 leading-8 3xl:leading-10 whitespace-pre-wrap">
-                      เราให้บริการด้านการตลาดและโฆษณาออนไลน์แบบครบวงจร
+                      เราให้บริการด้านการตลาด และโฆษณาออนไลน์แบบครบวงจร
                       เราเริ่มต้นด้วยการทำวิจัย ที่ครอบคลุม
-                      นั่นรวมถึงการวิจัยตลาดการวิจัยทางธุรกิจการวิจัยผลิตภัณฑ์และบริการ
-                      การวิจัยคู่แข่ง และการวิจัย
+                      นั่นรวมถึงการวิจัยตลาดการวิจัยทางธุรกิจการวิจัยผลิตภัณฑ์ และบริการ
+                      การวิจัยคู่แข่ง  และการวิจัย
                       <span className="text-infinite3">Trend</span> ของตลาด
                     </p>
                     <p className="text-base md:text-xl 3xl:text-2xl font-normal mt-2 leading-8 3xl:leading-10 whitespace-pre-wrap">
                       <span className="text-xl md:text-3xl 3xl:text-4xl mt-10 font-normal text-in-purple-2">
                         ทีมการตลาดออนไลน์ของเรา
                       </span>
-                      พัฒนากลยุทธ์ทางการตลาดและการวางแผนแคมเปญที่เต็ม รูปแบบ
-                      แผนการตลาดดิจิทัลและการทำงาน จะรวมถึงการพัฒนา
+                      พัฒนากลยุทธ์ทางการตลาด และการวางแผนแคมเปญที่เต็ม รูปแบบ
+                      แผนการตลาดดิจิทัล และการทำงาน จะรวมถึงการพัฒนา
                       <span className="text-infinite3">Concept</span> และ
                       <span className="text-infinite3">Creative</span>
-                      วางทิศทางของแคมเปญ วางแผนการใช้และ ซื้อสื่อ
+                      วางทิศทางของแคมเปญ วางแผนการใช้ และ ซื้อสื่อ
                       การสร้างตอนเท้นท์ต่างๆ เช่นกราฟิก และวิดีโอ การซื้อสื่อ
-                      และการเพิ่มประสิทธิภาพหลังจากแคมเปญการตลาดออนไลน์ของ
+                       และการเพิ่มประสิทธิภาพหลังจากแคมเปญการตลาดออนไลน์ของ
                       คุณเปิดตัวแล้ว
                     </p>
                   </div>
@@ -406,12 +406,12 @@ export default function SubSocialMedia() {
                 </div>
                 <div className="col-span-12 md:col-span-7 mx-10 md:mr-4 md:ml-10 text-left">
                   <h3 className="text-2xl md:text-4xl 3xl:text-5xl mt-10 font-semibold font-Prompt text-in-purple-1">
-                    วิจัยและวางแผนการตลาดออนไลน์
+                    วิจัย และวางแผนการตลาดออนไลน์
                   </h3>
                   <p className="text-base md:text-2xl 3xl:text-3xl font-light mt-2 leading-7 md:leading-8 3xl:leading-10 font-Prompt">
                     เราพัฒนาแผนการตลาดดิจิตอลจากวัตถุประสงค์ ของบริษัทคุณ
-                    ไม่ว่าจะเป็นการเปิดตัวผลิตภัณฑ์และบริการ
-                    เพิ่มการรับรู้ถึงแบรนด์ และเพิ่มยอดขาย
+                    ไม่ว่าจะเป็นการเปิดตัวผลิตภัณฑ์ และบริการ
+                    เพิ่มการรับรู้ถึงแบรนด์  และเพิ่มยอดขาย
                   </p>
                   <div className="grid justify-items-center w-full my-5 md:my-10 border bg-gray-dark">
                     <hr />
@@ -420,7 +420,7 @@ export default function SubSocialMedia() {
                     <div className="col-span-12 md:col-span-6 mx-4 text-left font-bold">
                       <div className="text-base md:text-xl 3xl:text-2xl font-normal leading-8 3xl:leading-10 whitespace-pre-wrap">
                         <ul className="list-inside list-disc">
-                          <li>การวิจัยและการวางแผน</li>
+                          <li>การวิจัย และการวางแผน</li>
                           <li>สร้าง Concept Creative</li>
                           <li>การสร้างคอนเทนท์ต่างๆ</li>
                         </ul>
@@ -445,11 +445,11 @@ export default function SubSocialMedia() {
               <div className="grid grid-cols-12 relative mt-0 md:mt-28">
                 <div className="col-span-12 md:col-span-7 mx-10 md:mr-4 md:ml-10 text-left">
                   <h3 className="text-2xl md:text-4xl 3xl:text-5xl mt-0 md:mt-10 font-semibold font-Prompt text-in-purple-1">
-                    โฆษณาดิจิตอลและการซื้อสื่อดิจิตอล
+                    โฆษณาดิจิตอล และการซื้อสื่อดิจิตอล
                   </h3>
                   <p className="text-base md:text-2xl 3xl:text-3xl font-light mt-2 leading-7 md:leading-8 3xl:leading-10 font-Prompt">
                     เราโฆษณาแคมเปญการตลาดของคุณบนโซเชียล
-                    มีเดียเครื่องมือค้นหาและแพลตฟอร์มดิจิทัลอื่นๆ
+                    มีเดียเครื่องมือค้นหา และแพลตฟอร์มดิจิทัลอื่นๆ
                     ไปยังกลุ่มเป้าหมายของคุณ
                   </p>
                   <div className="grid justify-items-center w-full my-5 md:my-10 border bg-gray-dark">

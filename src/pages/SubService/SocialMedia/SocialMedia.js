@@ -45,7 +45,7 @@ export default function Seo() {
           <title>Advertising Online & Content | Infinite Digital Consultants</title>
           <meta
             name="description"
-            content="เราให้บริการด้านการตลาดและโฆษณาออนไลน์แบบครบวงจร เราเริ่มต้นด้วยการทำวิจัย ที่ครอบคลุม นั่นรวมถึงการวิจัยตลาดการวิจัยทางธุรกิจการวิจัยผลิตภัณฑ์และบริการ การวิจัยคู่แข่ง และการวิจัย Trend ของตลาด"
+            content="เราให้บริการด้านการตลาด และโฆษณาออนไลน์แบบครบวงจร เราเริ่มต้นด้วยการทำวิจัย ที่ครอบคลุม นั่นรวมถึงการวิจัยตลาดการวิจัยทางธุรกิจการวิจัยผลิตภัณฑ์ และบริการ การวิจัยคู่แข่ง และการวิจัย Trend ของตลาด"
           />
           <link rel="canonical" href="https://theinfinitedigital.com/services/digital" />
         </Helmet>

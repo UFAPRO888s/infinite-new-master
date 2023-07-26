@@ -47,7 +47,7 @@ const navigation = [
 
 const navService = [
   {
-    name: "Seo Digital Marketing",
+    name: "SEO Digital Marketing",
     id: "sub01",
     to: "/services/seo",
   },

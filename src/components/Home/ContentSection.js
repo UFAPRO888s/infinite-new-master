@@ -160,7 +160,7 @@ export default function ContentSectionCopy() {
       // get just the nested <li> submenu items inside this one
       let items1 = el.querySelectorAll(".animationWater1");
       let items2 = el.querySelectorAll(".animationWater2");
-      // if any are found, create the animation and mouseover/mouseout listeners
+      // if any are found, create the animation and mouSEOver/mouSEOut listeners
       if (items1.length > 0) {
         var animationWater1 = gsap.timeline({
           repeat: 2,
@@ -226,7 +226,7 @@ export default function ContentSectionCopy() {
                       </div>
                       <p className="text-xs lg:text-base 2xl:text-xl 3xl:text-2xl font-light leading-normal">
                         มีครบทุกบริการ <br />
-                        ทั้งบริการหลักและ <br />
+                        ทั้งบริการหลัก และ <br />
                         บริการเสริม{" "}
                       </p>{" "}
                     </div>
@@ -252,7 +252,7 @@ export default function ContentSectionCopy() {
                       </div>
                       <p className="text-xs lg:text-base 2xl:text-xl 3xl:text-2xl font-light leading-normal">
                         มีทีมงานครบวงจร <br />
-                        ทั้งด้านเว็บไซต์ และ <br />
+                        ทั้งด้านเว็บไซต์  และ <br />
                         การตลาดดิจิทัล
                       </p>
                     </div>
@@ -639,7 +639,7 @@ export default function ContentSectionCopy() {
                       />
                     </div>{" "}
                     <p className="md:text-xl lg:text-xl 2xl:text-2xl 3xl:text-3xl leading-10 text-in-purple-1">
-                      รับเขียนโปรแกรม และระบบทุกประเภท
+                      รับเขียนโปรแกรม  และระบบทุกประเภท
                     </p>{" "}
                     <span className="box-decoration-clone text-in-purple-3 font-bold">
                       <p className="md:text-4xl lg:text-5xl 2xl:text-5xl 3xl:text-7xl">
@@ -658,7 +658,7 @@ export default function ContentSectionCopy() {
                       </a>{" "}
                     </div>{" "}
                     <p className="md:text-xs lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl  font-light mb-2 lg:mb-2">
-                      ทีมงานเขียนโปรแกรมและพัฒนาระบบ
+                      ทีมงานเขียนโปรแกรม และพัฒนาระบบ
                       ตามความต้องการของลูกค้าอย่างมืออาชีพรอบรับทุกการใช้งานกับธุรกิจ
                     </p>{" "}
                   </div>
