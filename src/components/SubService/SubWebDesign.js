@@ -382,7 +382,7 @@ export default function SubWebDesign() {
                 <div>
                   <blockquote className="bg-infinite2-4 p-3 rounded-b-xl ">
                     <h5 className="text-center text-xl md:text-2xl font-bold md:font-semibold text-infinite3">
-                      เริ่มต้น <span className="font-Prompt">6,990</span> บาท
+                      เริ่มต้น <span className="font-Prompt">8,999</span> บาท
                     </h5>
                   </blockquote>
                 </div>
