@@ -42,7 +42,7 @@ export default function Seo() {
     <>
       <main>
       <Helmet>
-          <title>SEO Digital Marketing | Infinite Digital Consultants</title>
+          <title>SEO Digital Marketing - Infinite Digital Consultant</title>
           <meta
             name="description"
             content="สร้างคอนเทนท์ SEO ให้เว็บไซต์ติดหน้าแรก บน Google รวมถึงการทำให้ธุรกิจเข้าถึงผู้ใช้งานได้ง่าย ตรงตามกลุ่มเป้าหมาย ได้ทุกที่ทุกเวลา และเพิ่มโอกาสให้แบรนด์หรือธุรกิจของคุณปิดการขายได้มากขึ้น"

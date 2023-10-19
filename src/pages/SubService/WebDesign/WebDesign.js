@@ -43,7 +43,7 @@ export default function Seo() {
     <>
       <main>
         <Helmet>
-          <title>Web Design - Infinite Digital Consultants</title>
+          <title>Web Design - Infinite Digital Consultant</title>
           <meta
             name="description"
             content="Infinity Digital Agency ให้บริการออกแบบ และพัฒนาเว็บไซต์ เว็บแอปพลิเคชัน และแอปพลิเคชันมือถือครบวงจร โดยรูปแบบการทำเว็บไซต์หรือออกแบบเว็บไซต์นั้น จะขึ้นอยู่กับเป้าหมาย และตรงกับความต้องการของคุณลูกค้า"

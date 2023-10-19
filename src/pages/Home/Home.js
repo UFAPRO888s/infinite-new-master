@@ -16,7 +16,7 @@ export default function Home() {
     <>
       {/* <Helmet>
         <title>
-          รับทำเว็บไซต์ | รับทำ wordpress ออกแบบเว็บไซต์ รองรับ SEO
+          รับทำเว็บไซต์ - รับทำ wordpress ออกแบบเว็บไซต์ รองรับ SEO
           รับเขียนโปรแกรม ทุกประเภทของธุรกิจ - รับรองคุณภาพ จากทางบริษัท
         </title>
         <meta
@@ -26,7 +26,7 @@ export default function Home() {
         <link rel="canonical" href="https://theinfinitedigital.com/" />
       </Helmet> */}
       <SuperSEO
-        title="รับทำเว็บไซต์ รับเขียนโปรแกรม ทุกประเภทของธุรกิจ | รับทำ wordpress ออกแบบเว็บไซต์ รองรับ SEO"
+        title="รับทำเว็บไซต์ รับเขียนโปรแกรม ทุกประเภทของธุรกิจ - รับทำ wordpress ออกแบบเว็บไซต์ รองรับ SEO"
         description="บริษัท รับทำเว็บไชต์ ด้วยทีมงานดูโครงสร้างครอบคลุมถึง ux/ui และรองรับ SEO สามารถออกแบบเว็บไซต์ ด้วย wordpress รวมถึงการ รับทำการตลาดออนไลน์ ทางด้านสื่อดิจิทัลทุกรูปแบบ รับทำ SEO ติดหน้า 1 ของ Google"
         lang="th"
         link

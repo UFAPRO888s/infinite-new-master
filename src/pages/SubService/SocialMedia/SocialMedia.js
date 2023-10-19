@@ -42,7 +42,7 @@ export default function Seo() {
     <>
       <main>
         <Helmet>
-          <title>Advertising Online & Content | Infinite Digital Consultants</title>
+          <title>Advertising Online & Content - Infinite Digital Consultant</title>
           <meta
             name="description"
             content="เราให้บริการด้านการตลาด และโฆษณาออนไลน์แบบครบวงจร เราเริ่มต้นด้วยการทำวิจัย ที่ครอบคลุม นั่นรวมถึงการวิจัยตลาดการวิจัยทางธุรกิจการวิจัยผลิตภัณฑ์ และบริการ การวิจัยคู่แข่ง และการวิจัย Trend ของตลาด"

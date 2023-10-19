@@ -42,7 +42,7 @@ export default function Work() {
     <>
       <main>
         <Helmet>
-          <title>Service - Infinite Digital Consultants</title>
+          <title>Service - Infinite Digital Consultant</title>
           <meta
             name="description"
             content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."

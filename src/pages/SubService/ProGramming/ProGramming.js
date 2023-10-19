@@ -43,7 +43,7 @@ export default function ProGramming() {
     <>
       <main>
         <Helmet>
-          <title>Expert Programming - Infinite Digital Consultants</title>
+          <title>Expert Programming - Infinite Digital Consultant</title>
           <meta
             name="description"
             content="รับเขียนโปรแกรม และพัฒนาระบบตามความต้องการของท่านอย่างมืออาชีพรองรับทุกการใช้งานกับทุกธุรกิจ เราพัฒนาโปรแกรม และรับทำเว็บไซต์ทุกรูปแบบ และหลากหลายเพื่อให้เหมาะกับการใช้งานของท่าน ด้วยประสบการณ์ที่เรามีมามากกว่า 10 ปี"

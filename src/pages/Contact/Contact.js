@@ -41,7 +41,7 @@ export default function Work() {
     <>
       <main>
         <Helmet>
-          <title>Contact - Infinite Digital Consultants</title>
+          <title>Contact - Infinite Digital Consultant</title>
           <meta
             name="description"
             content="ปรึกษาเราได้ในทุกเรื่องธุรกิจที่คุณต้องการ ที่อาคารมาริโกลด์ ทาวเวอร์ สุวรรณภูมิ ชั้นที่ 5 ห้องเลขที่ 1507 ซอยลาดกระบัง 1 ถนนอ่อนนุช-ลาดกระบัง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520"

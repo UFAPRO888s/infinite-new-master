@@ -253,7 +253,7 @@ export default function HeroSectionCopy() {
                     </div>
                     <div className="col-start-2 col-span-4 self-center  mr-10 mt-1 xl:mr-10 xl:mt-2 2xl:mr-5 2xl:mt-5">
                       <p className="font-bold uppercase md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl text-center">
-                        Infinite Digital Consultants
+                        Infinite Digital Consultant
                       </p>
                       <p className="text-center uppercase font-extralight md:text-sm lg:text-xl xl:text-2xl 3xl:text-3xl mt-0 lg:mt-2 xl:mt-2 2xl:mt-3 3xl:mt-2 ">
                         รับปรึกษาดูแลด้านเว็บไซต์
@@ -375,7 +375,7 @@ export default function HeroSectionCopy() {
                           <p className="text-4xl my-2 font-bold leading-tight uppercase">
                             We are <br />
                             Infinite Digital <br />
-                            Consultants
+                            Consultant
                           </p>
                           <p className="text-sm my-2">
                             รับปรึกษาดูแลด้านเว็บไซต์ และระบบโปรแกรม รวมถึงสื่อดิจิทัลออนไลน์ครบทุกด้านในที่เดียว
