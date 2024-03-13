@@ -109,7 +109,7 @@ export default function Footer() {
                             src="../assets/images/footer/icon-footer-new-1.png"
                           />
                           <div>
-                            <p>Email : Infinite.Digital.C@gmail.com</p>
+                            <p>Email : info@theinfinitedigital.com</p>
                           </div>
                         </div>
                       </li>
@@ -225,7 +225,7 @@ export default function Footer() {
                         src="../assets/images/footer/icon-footer-new-1.png"
                       />
                       <div>
-                        <p>Email : Infinite.Digital.C@gmail.com</p>
+                        <p>Email : info@theinfinitedigital.com</p>
                       </div>
                     </div>
                   </li>
